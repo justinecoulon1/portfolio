@@ -3,6 +3,7 @@ import { Geist_Mono } from 'next/font/google';
 import './globals.css';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
+import { ThemeProvider } from '@/components/contexts/theme-context';
 
 const geistMono = Geist_Mono({
   variable: '--font-geist-mono',
@@ -23,7 +24,9 @@ export default async function RootLayout({
   return (
     <html lang="en">
       <NextIntlClientProvider messages={messages}>
-        <body className={geistMono.variable}>{children}</body>
+        <ThemeProvider>
+          <body className={geistMono.variable}>{children}</body>
+        </ThemeProvider>
       </NextIntlClientProvider>
     </html>
   );
