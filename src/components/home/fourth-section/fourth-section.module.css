@@ -1,0 +1,55 @@
+.fourthSectionContainer {
+    display: flex;
+    justify-content: center;
+
+    width: 100vw;
+
+    .form {
+        display: flex;
+        flex-direction: column;
+
+        width: 50%;
+        gap: 1.5rem;
+
+        .inputs {
+            background-color: var(--primary);
+            height: 3rem;
+            padding: 0.5rem;
+            border-radius: 1rem;
+            outline: none;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+
+        .firstLine {
+            display: flex;
+            gap: 1rem;
+
+            & input {
+                width: 50%;
+            }
+        }
+
+        .secondLine {
+            display: flex;
+            gap: 1rem;
+
+            & textarea {
+                height: 10rem;
+                width: 100%;
+                resize: none;
+            }
+        }
+
+        .submitFormDiv {
+            display: flex;
+            justify-content: center;
+
+            .submitFormButton {
+                width: 5rem;
+                background-color: var(--tertiary);
+                border-radius: 0;
+            }
+        }
+    }
+}

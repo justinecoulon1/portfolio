@@ -1,5 +1,18 @@
 {
   "header": {
-    "main-title": "HOME"
+    "main-title": "HOME",
+    "projects": "PROJETS",
+    "about": "ABOUT"
+  },
+  "third-section": {
+    "section-title": "Skills & Technologies",
+    "skill": "Skills"
+  },
+  "fourth-section": {
+    "form-title": "Let's connect!",
+    "name-input-placeholder": "Your name",
+    "email-input-placeholder": "Your email",
+    "message-input-placeholder": "Your message",
+    "submit-button": "Submit"
   }
 }

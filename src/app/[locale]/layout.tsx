@@ -1,18 +1,20 @@
 import type { Metadata } from 'next';
-import { Geist_Mono } from 'next/font/google';
 import './globals.css';
 import { NextIntlClientProvider } from 'next-intl';
 import { getMessages } from 'next-intl/server';
-import { ThemeProvider } from '@/components/contexts/theme-context';
+import { ThemeProvider } from 'next-themes';
+import Header from '@/components/global/header/header';
+import { Athiti } from 'next/font/google';
 
-const geistMono = Geist_Mono({
-  variable: '--font-geist-mono',
+const athiti = Athiti({
+  variable: '--font-athiti',
   subsets: ['latin'],
+  weight: ['200', '300', '400', '500', '600', '700'],
 });
 
 export const metadata: Metadata = {
   title: 'Portfolio',
-  description: 'My portfolio',
+  description: "Justine Coulon's Portfolio",
 };
 
 export default async function RootLayout({
@@ -22,11 +24,14 @@ export default async function RootLayout({
 }>) {
   const messages = await getMessages();
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <NextIntlClientProvider messages={messages}>
-        <ThemeProvider>
-          <body className={geistMono.variable}>{children}</body>
-        </ThemeProvider>
+        <body className={athiti.variable}>
+          <ThemeProvider attribute={'data-theme'} defaultTheme={'system'} enableSystem>
+            <Header />
+            <main>{children}</main>
+          </ThemeProvider>
+        </body>
       </NextIntlClientProvider>
     </html>
   );

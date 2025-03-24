@@ -1,0 +1,29 @@
+.thirdSectionContainer {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 1rem;
+
+    .skillList {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        gap: 1.5rem;
+
+        .skillCardDiv {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 6rem;
+
+            gap: 0.5rem;
+
+            .skillImage {
+                width: 3rem;
+                height: 3rem;
+            }
+        }
+    }
+}

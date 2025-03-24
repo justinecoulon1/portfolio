@@ -1,5 +1,18 @@
 {
   "header": {
-    "main-title": "ACCUEIL"
+    "main-title": "ACCUEIL",
+    "projects": "PROJETS",
+    "about": "À PROPOS"
+  },
+  "third-section": {
+    "section-title": "Compétences & Technologies",
+    "skill": "Compétence"
+  },
+  "fourth-section": {
+    "form-title": "Entrons en contact !",
+    "name-input-placeholder": "Votre nom",
+    "email-input-placeholder": "Votre email",
+    "message-input-placeholder": "Votre message",
+    "submit-button": "Envoyer"
   }
 }

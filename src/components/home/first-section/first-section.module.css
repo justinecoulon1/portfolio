@@ -1,0 +1,85 @@
+.firstSectionContainer {
+    display: flex;
+    justify-content: center;
+
+    width: 100vw;
+
+    gap: 5rem;
+
+
+    .profilePictureSection {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+
+        .profilePictureContainer {
+            border-radius: 50%;
+            cursor: pointer;
+
+            .profilePicture {
+                height: 20rem;
+                width: 20rem;
+            }
+        }
+
+        .linksSection {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+
+            .linkImage {
+                height: 3rem;
+                width: 3rem;
+            }
+
+            .linkDiv {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                width: 3.5rem;
+                height: 3.5rem;
+
+                & a {
+                    display: flex;
+                    align-items: center;
+                    text-decoration: none;
+                }
+            }
+
+            .linkedin {
+                background-color: #0078B6;
+            }
+
+            .resumeDiv {
+                display: flex;
+                align-items: center;
+                background-color: var(--tertiary);
+
+                width: 7rem;
+
+                & a {
+                    color: var(--text-primary);
+
+                    .downloadImage {
+                        height: 2rem;
+                        width: 2rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .presentationSection {
+        .presentationTitle {
+            font-size: 2rem;
+        }
+
+        .presentationDescription {
+
+        }
+    }
+
+
+}
+

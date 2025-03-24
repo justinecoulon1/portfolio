@@ -1,0 +1,72 @@
+.header {
+    display: flex;
+    width: 100vw;
+    height: var(--header-height);
+
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    padding: 0 3rem 0 3rem;
+
+    font-size: 1.3rem;
+    user-select: none;
+
+    background-color: var(--primary);
+    opacity: 0.9;
+
+    z-index: 15;
+
+    .headerDiv {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100vw;
+        height: 100%;
+        border-bottom: 1px solid var(--text-primary);
+    }
+
+    .logoDiv {
+        display: flex;
+        font-family: Mixal;
+        font-size: 3rem;
+    }
+
+    .nav {
+        display: flex;
+
+        & ul {
+            display: flex;
+            gap: 2.5rem;
+
+            & li {
+                list-style-type: none;
+                transition: transform 0.3s ease;
+
+                & a {
+                    display: inline-block;
+                    text-decoration: none;
+                    position: relative;
+                }
+
+                & a::before {
+                    content: "→";
+                    position: relative;
+                    left: 0;
+                    opacity: 0;
+                    transition: left 0.3s ease, opacity 0.3s ease;
+                }
+
+                &:hover {
+                    transform: translateX(0.5rem);
+
+                    & a::before {
+                        left: -0.8rem;
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+
+    }
+}
