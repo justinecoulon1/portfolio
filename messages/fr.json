@@ -4,6 +4,14 @@
     "projects": "PROJETS",
     "about": "À PROPOS"
   },
+  "first-section": {
+    "section-title": "Bonjour, je suis Justine !",
+    "resume": "CV"
+  },
+  "second-section": {
+    "section-title": "Projets mis en avant",
+    "see-more": "VOIR PLUS"
+  },
   "third-section": {
     "section-title": "Compétences & Technologies",
     "skill": "Compétence"

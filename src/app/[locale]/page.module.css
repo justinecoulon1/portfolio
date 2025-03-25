@@ -12,10 +12,8 @@
 }
 
 .secondSection {
-    height: 25rem;
+    height: 35rem;
     background-color: var(--primary-vibrant);
-
-    padding: 1rem;
 }
 
 .thirdSection {

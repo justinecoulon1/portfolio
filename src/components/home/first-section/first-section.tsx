@@ -3,8 +3,10 @@ import Image from 'next/image';
 import classNames from 'classnames';
 import Link from 'next/link';
 import { scrollToDiv } from '@/app/scroll-utils';
+import { useTranslations } from 'next-intl';
 
 export default function FirstSection() {
+  const t = useTranslations('first-section');
   return (
     <div className={styles.firstSectionContainer}>
       <div className={styles.profilePictureSection}>
@@ -26,7 +28,7 @@ export default function FirstSection() {
       </div>
       <div className={styles.presentationSection}>
         <div className={styles.presentationTitle}>
-          <h1>Hey! I'm Justine Coulon</h1>
+          <h1>{t('section-title')}</h1>
         </div>
         <div className={styles.presentationDescription}>
           <p>DESCRIPTION HAHAHA LALALA HAHAHAL LALALALAALAL</p>
@@ -37,6 +39,7 @@ export default function FirstSection() {
 }
 
 function LinksSection() {
+  const t = useTranslations('first-section');
   return (
     <>
       <div className={classNames(styles.linkDiv, styles.linkedin, 'nbShadow')}>
@@ -75,7 +78,7 @@ function LinksSection() {
             height={512}
             alt={'download'}
           />
-          <p>RESUME</p>
+          <p>{t('resume')}</p>
         </Link>
       </div>
     </>

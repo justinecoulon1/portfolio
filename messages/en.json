@@ -4,6 +4,14 @@
     "projects": "PROJETS",
     "about": "ABOUT"
   },
+  "first-section": {
+    "section-title": "Hey, I'm Justine Coulon!",
+    "resume": "RESUME"
+  },
+  "second-section": {
+    "section-title": "Featured Projects",
+    "see-more": "SEE MORE"
+  },
   "third-section": {
     "section-title": "Skills & Technologies",
     "skill": "Skills"

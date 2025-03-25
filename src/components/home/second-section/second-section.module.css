@@ -1,3 +1,41 @@
 .secondSectionContainer {
-    
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+    .projectCardList {
+        display: flex;
+        gap: 1rem;
+
+        .projectCard {
+            display: flex;
+            flex-direction: column;
+            cursor: pointer;
+
+            height: 25rem;
+            width: 20rem;
+            gap: 1rem;
+
+            background-color: var(--primary);
+
+            .projectCardImageContainer {
+                display: flex;
+
+                .projectImage {
+                    height: 7rem;
+                    width: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .projectContentContainer {
+                display: flex;
+                flex-direction: column;
+
+                height: 100%;
+
+                padding: 0.5rem 1rem 0.5rem 1rem;
+            }
+        }
+    }
 }
