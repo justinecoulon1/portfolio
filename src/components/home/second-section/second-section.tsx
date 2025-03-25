@@ -2,6 +2,7 @@ import styles from './second-section.module.css';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import classNames from 'classnames';
+import { Link } from '@/i18n/routing';
 
 export default function SecondSection() {
   const t = useTranslations('second-section');
@@ -9,15 +10,19 @@ export default function SecondSection() {
   return (
     <div className={styles.secondSectionContainer}>
       <h2>{t('section-title')}</h2>
-      <div className={styles.projectCardList}>
-        <ProjectCard projectName={'Almofus'} />
-        <ProjectCard projectName={'FileShareTool'} />
+      <div className={styles.projectSmallCardList}>
+        <Link href={'/projects/almofus'}>
+          <SmallProjectCard projectName={'Almofus'} />
+        </Link>
+        <Link href={'/projects/file-share-tool'}>
+          <SmallProjectCard projectName={'FileShareTool'} />
+        </Link>
       </div>
     </div>
   );
 }
 
-function ProjectCard({ projectName }: { projectName: string }) {
+function SmallProjectCard({ projectName }: { projectName: string }) {
   return (
     <div className={classNames(styles.projectCard, 'nbShadow')}>
       <div className={styles.projectCardImageContainer}>
