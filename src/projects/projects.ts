@@ -12,7 +12,7 @@ export const almofus: Project = {
   projectKey: 'almofus',
   bannerBackgroundColor: '#2b2e4a',
   githubLink: 'https://github.com/justinecoulon1/almofus',
-  sections: ['general', 'database', 'a', 'b', 'c', 'd', 'e'],
+  sections: ['general', 'database', 'key-features'],
 };
 
 export const fileShareTool: Project = {
@@ -20,7 +20,7 @@ export const fileShareTool: Project = {
   projectKey: 'file-share-tool',
   bannerBackgroundColor: 'red',
   githubLink: 'https://github.com/justinecoulon1/FileShareTool',
-  sections: ['general', 'database'],
+  sections: ['general', 'database', 'key-features'],
 };
 
 export const choreMate: Project = {
@@ -28,7 +28,7 @@ export const choreMate: Project = {
   projectKey: 'chore-mate',
   bannerBackgroundColor: 'red',
   githubLink: 'https://github.com/justinecoulon1/ChoreMateBack',
-  sections: ['general', 'database'],
+  sections: ['general', 'database', 'key-features'],
 };
 
 export const projectsList = [almofus, fileShareTool, choreMate];

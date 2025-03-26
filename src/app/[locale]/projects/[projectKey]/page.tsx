@@ -6,6 +6,7 @@ import classNames from 'classnames';
 import { notFound, useParams } from 'next/navigation';
 import { Project, projectsList } from '@/projects/projects';
 import Image from 'next/image';
+import { useTranslations } from 'next-intl';
 
 export default function ProjectPage() {
   const { projectKey } = useParams<{ projectKey: string }>();
@@ -17,14 +18,22 @@ export default function ProjectPage() {
     <div className={styles.projectPageContainer}>
       <ProjectHeaderSection project={project} />
       {project.sections.map((section, index) => (
-        <ProjectPageSection key={`${project.name}-${index}`} section={section} />
+        <ProjectPageSection key={`${project.name}-${index}`} section={section} project={project} />
       ))}
     </div>
   );
 }
 
-function ProjectPageSection({ section }: { section: string }) {
-  return <div className={styles.projectPageSection}>{section}</div>;
+function ProjectPageSection({ section, project }: { section: string; project: Project }) {
+  const t = useTranslations(project.projectKey);
+  return (
+    <div className={styles.projectPageSection}>
+      <div className={styles.projectSectionContent}>
+        <h2>{t(`${section}-title`)}</h2>
+        <p>{t(`${section}`)}</p>
+      </div>
+    </div>
+  );
 }
 
 function ProjectHeaderSection({ project }: { project: Project }) {
