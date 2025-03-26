@@ -1,0 +1,76 @@
+.projectPageContainer {
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+
+    padding-top: 3rem;
+
+    .projectHeader {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+
+        width: 100%;
+
+        padding: 0 2rem 0 2rem;
+
+        & h2 {
+            display: flex;
+            justify-self: center;
+
+            font-size: 3rem;
+
+            border-bottom: 2px solid var(--secondary-vibrant);
+        }
+
+        .backButton {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            width: 5rem;
+
+            background-color: var(--tertiary);
+        }
+
+        & a {
+            display: flex;
+            align-items: center;
+
+            height: 2.5rem;
+            width: 6rem;
+
+            gap: 0.5rem;
+
+            color: var(--text-primary);
+            background-color: var(--tertiary);
+
+            .linkDiv {
+                display: flex;
+                align-items: center;
+
+                height: 100%;
+
+                background-color: black;
+
+                .linkImage {
+                    height: 2rem;
+                    width: 2rem;
+                }
+            }
+        }
+    }
+}
+
+.projectPageSection {
+    display: flex;
+    width: 100%;
+    height: 25rem;
+}
+
+.projectPageSection:nth-child(odd) {
+
+    background-color: var(--primary-vibrant);
+}

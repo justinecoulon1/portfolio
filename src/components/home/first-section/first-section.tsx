@@ -2,18 +2,14 @@ import styles from './first-section.module.css';
 import Image from 'next/image';
 import classNames from 'classnames';
 import Link from 'next/link';
-import { scrollToDiv } from '@/app/scroll-utils';
 import { useTranslations } from 'next-intl';
 
-export default function FirstSection() {
+export default function FirstSection({ onProfilePictureClick }: { onProfilePictureClick: () => void }) {
   const t = useTranslations('first-section');
   return (
     <div className={styles.firstSectionContainer}>
       <div className={styles.profilePictureSection}>
-        <div
-          onClick={() => scrollToDiv('section-three')}
-          className={classNames(styles.profilePictureContainer, 'nbShadow')}
-        >
+        <div onClick={onProfilePictureClick} className={classNames(styles.profilePictureContainer, 'nbShadow')}>
           <Image
             className={styles.profilePicture}
             src={'/icons/placeholder.png'}

@@ -22,5 +22,17 @@
     "email-input-placeholder": "Your email",
     "message-input-placeholder": "Your message",
     "submit-button": "Submit"
+  },
+  "almofus": {
+    "short-desc": "A tool designed to help you in the dofus almanax quests",
+    "long-desc": "Almofus is a tool designed to help you keep track of the almanax daily quests. With it, you can keep track of which almanax quests you've already completed and which ones you haven't, which also comes in handy when wanting to complete the 1600 quests success of the game!"
+  },
+  "file-share-tool": {
+    "short-desc": "A tool designed to help you share files with the people you want!",
+    "long-desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto pariatur quam quisquam recusandae! Ducimus harum impedit in ipsa magni minus natus, nihil non odit quam quibusdam repudiandae soluta? Molestias, recusandae."
+  },
+  "chore-mate": {
+    "short-desc": "A tool designed to help you organise the chore of your household",
+    "long-desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto pariatur quam quisquam recusandae! Ducimus harum impedit in ipsa magni minus natus, nihil non odit quam quibusdam repudiandae soluta? Molestias, recusandae."
   }
 }

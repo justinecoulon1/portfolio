@@ -22,5 +22,17 @@
     "email-input-placeholder": "Votre email",
     "message-input-placeholder": "Votre message",
     "submit-button": "Envoyer"
+  },
+  "almofus": {
+    "short-desc": "Un outil développé pour vous aider dans la quête du dofus almanax.",
+    "long-desc": "Almofus est un outil fait pour vous aider à gérer votre avancée dans les quêtes journalières de l'almanax. Avec cet outil, vous pouvez garder une trace des quêtes que vous avez déjà accomplies ou non, ce qui est également pratique pour l'obtention du succès 1600 quêtes accomplies du jeu !"
+  },
+  "file-share-tool": {
+    "short-desc": "Un outil designé pour vous aider à partager des fichiers avec qui vous voulez.",
+    "long-desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto pariatur quam quisquam recusandae! Ducimus harum impedit in ipsa magni minus natus, nihil non odit quam quibusdam repudiandae soluta? Molestias, recusandae."
+  },
+  "chore-mate": {
+    "short-desc": "Un outil designé pour vous aider à organiser les tâches de votre ménage",
+    "long-desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto pariatur quam quisquam recusandae! Ducimus harum impedit in ipsa magni minus natus, nihil non odit quam quibusdam repudiandae soluta? Molestias, recusandae."
   }
 }
