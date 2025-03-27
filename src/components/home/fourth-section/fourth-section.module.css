@@ -25,19 +25,48 @@
             display: flex;
             gap: 1rem;
 
-            & input {
+            .firstLineInputDiv {
+                display: flex;
+                flex-direction: column;
                 width: 50%;
+                gap: 0.5rem;
+
+                & input {
+                    width: 100%;
+                }
+
+                & span {
+                    padding: 0 0 0 0.5rem;
+
+                    color: red;
+                    font-weight: bold;
+                }
             }
         }
 
         .secondLine {
             display: flex;
             gap: 1rem;
+            width: 100%;
 
-            & textarea {
-                height: 10rem;
+            .inputDiv {
+                display: flex;
+                flex-direction: column;
                 width: 100%;
-                resize: none;
+                gap: 0.5rem;
+
+                & textarea {
+                    height: 10rem;
+                    width: 100%;
+                    resize: none;
+                }
+
+                & span {
+                    padding: 0 0 0 0.5rem;
+
+                    color: red;
+                    font-weight: bold;
+                }
             }
         }
 
@@ -49,6 +78,8 @@
                 width: 5rem;
                 background-color: var(--tertiary);
                 border-radius: 0;
+
+                cursor: pointer;
             }
         }
     }
