@@ -27,7 +27,7 @@ export default function FirstSection({ onProfilePictureClick }: { onProfilePictu
           <h1>{t('section-title')}</h1>
         </div>
         <div className={styles.presentationDescription}>
-          <p>DESCRIPTION HAHAHA LALALA HAHAHAL LALALALAALAL</p>
+          <p>{t('description')}</p>
         </div>
       </div>
     </div>
