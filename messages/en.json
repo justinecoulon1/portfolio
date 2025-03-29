@@ -14,7 +14,7 @@
     "see-more": "SEE MORE"
   },
   "resume-section": {
-    "section-title": "Education & Professional experiences",
+    "section-title": "Education & Training",
     "see-more": "SEE MORE"
   },
   "skills-section": {
@@ -57,5 +57,21 @@
     "IN_DEVELOPMENT": "In development",
     "PAUSED": "Paused",
     "IN_PRODUCTION": "In production"
+  },
+  "bx-formation-training": {
+    "title": "DEVELOPER TRAINING",
+    "description": "Developer training in fullstack JavaScript at Bruxelles-Formation."
+  },
+  "udemy-training": {
+    "title": "SELF-TRAINING JAVA DEVELOPER",
+    "description": "Followed an online self-training course in Java on Udemy and created personal projects mostly using Java, Spring Boot and Swing."
+  },
+  "erasmus": {
+    "title": "ERASMUS",
+    "description": "Erasmus in Spain (Soria) to study translation in the University of Valladolid (UVa)."
+  },
+  "translation-master": {
+    "title": "BACHELOR & MASTER’S DEGREE IN TRANSLATION",
+    "description": "Bachelor and master’s degree with a multidisciplinary focus at the Faculty of Translation and Interpretation (FTI-EII)."
   }
 }

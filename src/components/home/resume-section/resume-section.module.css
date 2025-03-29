@@ -9,11 +9,35 @@
 
     .sectionHeader {
         display: flex;
+
         width: 50%;
     }
 
-    .resumeSectionContainer {
+    .resumeSectionContentContainer {
         display: flex;
+        flex-direction: column;
+
         width: 50%;
+
+        gap: 1rem;
+
+        .resumeCardSection {
+            align-items: baseline;
+            display: flex;
+
+            width: 100%;
+
+            .resumeExperienceDate {
+                width: 27%;
+
+                font-weight: bold;
+            }
+
+            .resumeExperienceInfo {
+                width: 100%;
+                
+                text-align: justify;
+            }
+        }
     }
 }
