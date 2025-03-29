@@ -4,8 +4,8 @@
     max-width: 60rem;
     max-height: 20rem;
     overflow-y: auto;
-    flex-wrap: wrap;
 
+    flex-wrap: wrap;
 
     .projectCardImageContainer {
         display: flex;
@@ -27,6 +27,7 @@
     .projectContentContainer {
         display: flex;
         flex-direction: column;
+
         flex: 1;
         border-left: 2px solid var(--secondary-vibrant);
         background-color: var(--primary);
@@ -53,7 +54,7 @@
             height: 100%;
 
             text-align: justify;
-            padding: 0.3rem 0.3rem 0.3rem 1rem;
+            padding: 0.3rem 1rem 0.3rem 1rem;
         }
 
         .projectTechnologies {

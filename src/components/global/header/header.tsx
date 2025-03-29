@@ -5,6 +5,7 @@ import ThemeToggle from '@/components/global/theme-toggle/theme-toggle';
 import { useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/i18n/routing';
 import classNames from 'classnames';
+import Image from 'next/image';
 
 type NavLink = {
   key: string;
@@ -21,7 +22,10 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.headerDiv}>
-        <div className={styles.logoDiv}>Justine</div>
+        <div className={styles.logoDiv}>
+          <Image className={styles.logo} src={'/icons/placeholder.png'} width={512} height={512} alt={'profile'} />
+          Justine
+        </div>
         <NavigationBar />
         <ThemeToggle />
       </div>

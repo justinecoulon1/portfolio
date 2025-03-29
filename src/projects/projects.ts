@@ -44,4 +44,14 @@ export const choreMate: Project = {
   status: ProjectStatus.IN_DEVELOPMENT,
 };
 
-export const projectsList = [almofus, fileShareTool, choreMate];
+export const portfolio: Project = {
+  name: 'Portfolio',
+  projectKey: 'portfolio',
+  bannerBackgroundColor: '#F9F5F2',
+  githubLink: 'https://github.com/justinecoulon1/portfolio',
+  sections: ['general'],
+  technologies: ['TypeScript', 'React.js', 'Next.js'],
+  status: ProjectStatus.IN_PRODUCTION,
+};
+
+export const projectsList = [almofus, portfolio, fileShareTool, choreMate];

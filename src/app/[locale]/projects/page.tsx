@@ -8,11 +8,13 @@ import { Link } from '@/i18n/routing';
 export default function ProjectsPage() {
   return (
     <div className={styles.projectsPage}>
-      {projectsList.map((project) => (
-        <Link key={project.projectKey} href={`/projects/${project.projectKey}`}>
-          <LongProjectCard project={project} />
-        </Link>
-      ))}
+      <div className={styles.projectListContainer}>
+        {projectsList.map((project) => (
+          <Link key={project.projectKey} href={`/projects/${project.projectKey}`}>
+            <LongProjectCard project={project} />
+          </Link>
+        ))}
+      </div>
     </div>
   );
 }

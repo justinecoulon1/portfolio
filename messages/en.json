@@ -50,6 +50,12 @@
     "general-title": "General presentation",
     "general": "ChoreMate is a collaborative project I've started with two people from my training at Bruxelles Formation.<br></br><br></br>It is meant to help users organise chores with other people, assign them to someone, mark them as done, make them repeatable or one-time."
   },
+  "portfolio": {
+    "short-desc": "My personal portfolio",
+    "long-desc": "My personal portfolio. That's the website you are currently using! On here you will be able to follow my progress and crafts!",
+    "general-title": "General presentation",
+    "general": "My personal portfolio. That's the website you are currently using! On here you will be able to follow my progress and crafts!"
+  },
   "long-project-card": {
     "project-technologies": "Technologies: "
   },

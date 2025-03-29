@@ -1,11 +1,16 @@
 .projectsPage {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    justify-content: center;
 
     width: 100%;
-    height: 100%;
-
-    gap: 2.5rem;
     padding: 3rem 0 3rem 0;
+
+    .projectListContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        gap: 2.5rem;
+        padding: 3rem 0 3rem 0;
+    }
 }
