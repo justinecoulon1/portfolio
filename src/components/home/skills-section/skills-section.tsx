@@ -1,13 +1,15 @@
-import styles from './third-section.module.css';
+import styles from './skills-section.module.css';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 
-export default function ThirdSection() {
-  const t = useTranslations('third-section');
+export default function SkillsSection() {
+  const t = useTranslations('skills-section');
 
   return (
-    <div className={styles.thirdSectionContainer}>
-      <h2>{t('section-title')}</h2>
+    <div className={styles.skillsSectionContainer}>
+      <div className={styles.sectionHeader}>
+        <h2>{t('section-title')}</h2>
+      </div>
       <div className={styles.skillList}>
         <SkillCard imageSrc={'/icons/TypeScript.png'} imageText={'Typescript'} />
         <SkillCard imageSrc={'/icons/JavaScript.png'} imageText={'Javascript'} />

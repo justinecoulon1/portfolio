@@ -1,8 +1,13 @@
-.thirdSectionContainer {
+.skillsSectionContainer {
     display: flex;
     flex-direction: column;
     width: 50%;
     gap: 1rem;
+
+    .sectionHeader {
+        display: flex;
+        width: 50%;
+    }
 
     .skillList {
         display: flex;

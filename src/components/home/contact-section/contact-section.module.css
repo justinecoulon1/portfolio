@@ -1,8 +1,16 @@
-.fourthSectionContainer {
+.contactSectionContainer {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 
     width: 100%;
+
+    gap: 1rem;
+
+    .sectionHeader {
+        display: flex;
+        width: 50%;
+    }
 
     .form {
         display: flex;

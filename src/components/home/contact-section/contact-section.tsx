@@ -1,4 +1,4 @@
-import styles from './fourth-section.module.css';
+import styles from './contact-section.module.css';
 import classNames from 'classnames';
 import { useTranslations } from 'next-intl';
 import { useActionState, useId } from 'react';
@@ -24,8 +24,8 @@ type SendFormData = {
   message: string;
 };
 
-export default function FourthSection() {
-  const t = useTranslations('fourth-section');
+export default function ContactSection() {
+  const t = useTranslations('contact-section');
   const inputId = useId();
 
   const handleSend = (state: SendStateForm, data: FormData): SendStateForm => {
@@ -47,9 +47,11 @@ export default function FourthSection() {
   const [formState, formAction, isPending] = useActionState(handleSend, { error: null });
 
   return (
-    <div className={styles.fourthSectionContainer}>
-      <form action={formAction} className={styles.form}>
+    <div className={styles.contactSectionContainer}>
+      <div className={styles.sectionHeader}>
         <h2>{t('form-title')}</h2>
+      </div>
+      <form action={formAction} className={styles.form}>
         <div className={styles.firstLine}>
           <div className={styles.firstLineInputDiv}>
             <input

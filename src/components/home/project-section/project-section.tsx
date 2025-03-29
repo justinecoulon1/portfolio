@@ -1,22 +1,27 @@
-import styles from './second-section.module.css';
+import styles from './project-section.module.css';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import classNames from 'classnames';
 import { Link } from '@/i18n/routing';
-import { almofus, fileShareTool, Project } from '@/projects/projects';
+import { almofus, choreMate, fileShareTool, Project } from '@/projects/projects';
 
-export default function SecondSection() {
-  const t = useTranslations('second-section');
+export default function ProjectSection() {
+  const t = useTranslations('project-section');
 
   return (
-    <div className={styles.secondSectionContainer}>
-      <h2>{t('section-title')}</h2>
+    <div className={styles.projectSectionContainer}>
+      <div className={styles.sectionHeader}>
+        <h2>{t('section-title')}</h2>
+      </div>
       <div className={styles.projectSmallCardList}>
         <Link href={'/projects/almofus'}>
           <SmallProjectCard project={almofus} />
         </Link>
         <Link href={'/projects/file-share-tool'}>
           <SmallProjectCard project={fileShareTool} />
+        </Link>
+        <Link href={'/projects/chore-mate'}>
+          <SmallProjectCard project={choreMate} />
         </Link>
       </div>
     </div>
