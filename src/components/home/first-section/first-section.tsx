@@ -3,6 +3,7 @@ import Image from 'next/image';
 import classNames from 'classnames';
 import Link from 'next/link';
 import { useTranslations } from 'next-intl';
+import { MapPin } from 'lucide-react';
 
 export default function FirstSection({ onProfilePictureClick }: { onProfilePictureClick: () => void }) {
   const t = useTranslations('first-section');
@@ -23,6 +24,10 @@ export default function FirstSection({ onProfilePictureClick }: { onProfilePictu
         </div>
       </div>
       <div className={styles.presentationSection}>
+        <div className={styles.profileLocationSection}>
+          <MapPin className={styles.mapPin} size={24} />
+          <p>Brussels, Belgium</p>
+        </div>
         <div className={styles.presentationTitle}>
           <h1>{t('section-title')}</h1>
         </div>

@@ -1,6 +1,7 @@
 .firstSectionContainer {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
 
     width: 60%;
 
@@ -10,7 +11,7 @@
     .profilePictureSection {
         display: flex;
         flex-direction: column;
-        gap: 3rem;
+        gap: 2rem;
 
         .profilePictureContainer {
             border-radius: 50%;
@@ -21,6 +22,7 @@
                 width: 20rem;
             }
         }
+
 
         .linksSection {
             display: flex;
@@ -70,6 +72,21 @@
     }
 
     .presentationSection {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+
+        .profileLocationSection {
+            display: flex;
+            font-size: 1.2rem;
+
+            gap: 0.3rem;
+
+            .mapPin {
+                color: var(--secondary-vibrant);
+            }
+        }
+
         .presentationTitle {
             font-size: 2rem;
         }
