@@ -1,6 +1,7 @@
 import styles from './skills-section.module.css';
 import { useTranslations } from 'next-intl';
 import Image from 'next/image';
+import classNames from 'classnames';
 
 export default function SkillsSection() {
   const t = useTranslations('skills-section');
@@ -15,11 +16,11 @@ export default function SkillsSection() {
         <SkillCard imageSrc={'/icons/JavaScript.png'} imageText={'Javascript'} />
         <SkillCard imageSrc={'/icons/Node.js.png'} imageText={'Node.js'} />
         <SkillCard imageSrc={'/icons/Nest.js.png'} imageText={'NestJs'} />
-        <SkillCard imageSrc={'/icons/Express.png'} imageText={'Express'} />
+        <SkillCard whiteBackground={true} imageSrc={'/icons/Express.png'} imageText={'Express'} />
         <SkillCard imageSrc={'/icons/Java.png'} imageText={'Java'} />
         <SkillCard imageSrc={'/icons/Spring.png'} imageText={'Spring-Boot'} />
         <SkillCard imageSrc={'/icons/React.png'} imageText={'React'} />
-        <SkillCard imageSrc={'/icons/Next.js.png'} imageText={'Next'} />
+        <SkillCard whiteBackground={true} imageSrc={'/icons/Next.js.png'} imageText={'Next'} />
         <SkillCard imageSrc={'/icons/HTML5.png'} imageText={'HTML'} />
         <SkillCard imageSrc={'/icons/CSS3.png'} imageText={'CSS'} />
         <SkillCard imageSrc={'/icons/PostgreSQL.png'} imageText={'PostgreSQL'} />
@@ -30,10 +31,20 @@ export default function SkillsSection() {
   );
 }
 
-function SkillCard({ imageSrc, imageText }: { imageSrc: string; imageText: string }) {
+function SkillCard({
+  imageSrc,
+  imageText,
+  whiteBackground = false,
+}: {
+  imageSrc: string;
+  imageText: string;
+  whiteBackground?: boolean;
+}) {
   return (
     <div className={styles.skillCardDiv}>
-      <Image className={styles.skillImage} width={512} height={512} src={imageSrc} alt={'skill logo'} />
+      <div className={classNames(styles.skillImageContainer, whiteBackground && styles.whiteBackground)}>
+        <Image className={styles.skillImage} width={512} height={512} src={imageSrc} alt={'skill logo'} />
+      </div>
       <p>{imageText}</p>
     </div>
   );

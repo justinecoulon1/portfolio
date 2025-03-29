@@ -25,10 +25,25 @@
 
             gap: 0.5rem;
 
-            .skillImage {
-                width: 3rem;
-                height: 3rem;
+            .skillImageContainer {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                padding: 0.2rem;
+                border-radius: 30%;
+
+                .skillImage {
+                    width: 3rem;
+                    height: 3rem;
+                }
+            }
+
+            .whiteBackground {
+                background-color: white;
             }
         }
+
+
     }
 }
