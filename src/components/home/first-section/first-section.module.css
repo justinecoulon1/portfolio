@@ -14,12 +14,18 @@
         gap: 2rem;
 
         .profilePictureContainer {
+            background-color: var(--tertiary);
+
             border-radius: 50%;
+
+            padding: 1.5rem;
+
             cursor: pointer;
 
             .profilePicture {
-                height: 20rem;
-                width: 20rem;
+                background-color: transparent;
+                height: 17rem;
+                width: 17rem;
             }
         }
 
