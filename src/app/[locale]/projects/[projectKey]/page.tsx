@@ -9,7 +9,8 @@ import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 
 export default function ProjectPage() {
-  const { projectKey } = useParams<{ projectKey: string }>();
+  const params = useParams<{ projectKey: string }>();
+  const projectKey = params?.projectKey;
   const project = projectsList.find((p) => p.projectKey === projectKey);
   if (!project) {
     notFound();
@@ -30,7 +31,16 @@ function ProjectPageSection({ section, project }: { section: string; project: Pr
     <div className={styles.projectPageSection}>
       <div className={styles.projectSectionContent}>
         <h2>{t(`${section}-title`)}</h2>
-        <p>{t(`${section}`)}</p>
+        <p>
+          {t.rich(`${section}`, {
+            br: () => <br />,
+            dofusdb: (chunks) => (
+              <a target="_blank" href="https://dofusdb.fr/">
+                {chunks}
+              </a>
+            ),
+          })}
+        </p>
       </div>
     </div>
   );

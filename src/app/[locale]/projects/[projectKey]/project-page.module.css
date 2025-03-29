@@ -85,6 +85,13 @@
 
     .projectSectionContent {
         width: 60%;
+
+        & p {
+            & a {
+                text-decoration: underline;
+                color: blue;
+            }
+        }
     }
 
 }

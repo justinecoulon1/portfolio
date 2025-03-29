@@ -8,15 +8,15 @@
     "section-title": "Bonjour, je suis Justine !",
     "resume": "CV"
   },
-  "second-section": {
+  "project-section": {
     "section-title": "Projets mis en avant",
     "see-more": "VOIR PLUS"
   },
-  "third-section": {
+  "skills-section": {
     "section-title": "Compétences & Technologies",
     "skill": "Compétence"
   },
-  "fourth-section": {
+  "contact-section": {
     "form-title": "Entrons en contact !",
     "name-input-placeholder": "Votre nom",
     "email-input-placeholder": "Votre email",
@@ -34,5 +34,13 @@
   "chore-mate": {
     "short-desc": "Un outil designé pour vous aider à organiser les tâches de votre ménage",
     "long-desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto pariatur quam quisquam recusandae! Ducimus harum impedit in ipsa magni minus natus, nihil non odit quam quibusdam repudiandae soluta? Molestias, recusandae."
+  },
+  "long-project-card": {
+    "project-technologies": "Technologies : "
+  },
+  "project-status": {
+    "IN_DEVELOPMENT": "En développement",
+    "PAUSED": "En pause",
+    "IN_PRODUCTION": "En production"
   }
 }

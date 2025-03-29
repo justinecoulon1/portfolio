@@ -63,14 +63,14 @@ main {
 }
 
 .nbShadow {
-    box-shadow: 2px 2px 0 0 black;
+    box-shadow: 2px 2px 0 0 var(--secondary-vibrant);
     transition: transform .25s cubic-bezier(.645, .045, .355, 1), box-shadow .25s cubic-bezier(.645, .045, .355, 1);
     transform: translate(0px);
-    border: 2px solid black;
-    background-color: black;
+    border: 2px solid var(--secondary-vibrant);
+    background-color: var(--secondary-vibrant);
 
     &:hover {
-        box-shadow: 4px 4px 0 0 black;
+        box-shadow: 4px 4px 0 0 var(--secondary-vibrant);
         transform: translate(-4px, -4px);
     }
 }

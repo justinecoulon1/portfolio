@@ -7,17 +7,21 @@
   "first-section": {
     "section-title": "Hey, I'm Justine Coulon!",
     "resume": "RESUME",
-    "description": "Hey there! I'm Justine, a curious mind exploring the world of coding, reading and the art of pixels. I'm proud to have a unique background that combines spoken languages and coding languages! On here you will be able to follow my progress whether in programming or pixel challenges!"
+    "description": "Hey there! I'm Justine, a software developer and a curious mind exploring the world of reading and the art of pixels. I'm proud to have a unique background that combines spoken languages and programming languages! On here you will be able to follow my progress and crafts!"
   },
-  "second-section": {
+  "project-section": {
     "section-title": "Featured Projects",
     "see-more": "SEE MORE"
   },
-  "third-section": {
+  "resume-section": {
+    "section-title": "Education & Professional experiences",
+    "see-more": "SEE MORE"
+  },
+  "skills-section": {
     "section-title": "Skills & Technologies",
     "skill": "Skills"
   },
-  "fourth-section": {
+  "contact-section": {
     "form-title": "Let's connect!",
     "name-input-placeholder": "Your name",
     "email-input-placeholder": "Your email",
@@ -26,20 +30,32 @@
   },
   "almofus": {
     "short-desc": "A tool designed to help you in the dofus almanax quests",
-    "long-desc": "Almofus is a tool designed to help you keep track of the almanax daily quests. With it, you can keep track of which almanax quests you've already completed and which ones you haven't, which also comes in handy when wanting to complete the 1600 quests success of the game!",
+    "long-desc": "Almofus is a tool designed for the game Dofus, made to help you keep track of the almanax daily quests. With it, you can keep track of which almanax quests you've already completed and which ones you haven't, which also comes in handy when wanting to complete the 1600 quests success of the game!",
     "general-title": "General presentation",
-    "database-title": "Data Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-    "key-features-title": "Key features Lorem ipsum dolor sit amet, consectetur adipisicing elit.",
-    "general": "Almofus is a tool designed to help you keep track of the almanax daily quests. With it, you can keep track of which almanax quests you've already completed and which ones you haven't, which also comes in handy when wanting to complete the 1600 quests success of the game! Its creation rooted in the frustration of most MMORPG, coming back to the game after a long pause and having no idea where you stopped and having no real method to track this in-game.",
-    "database": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto pariatur quam quisquam recusandae! Ducimus harum impedit in ipsa magni minus natus, nihil non odit quam quibusdam repudiandae soluta? Molestias, recusandae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto pariatur quam quisquam recusandae! Ducimus harum impedit in ipsa magni minus natus, nihil non odit quam quibusdam repudiandae soluta? Molestias, recusandae. Ducimus harum impedit in ipsa magni minus natus, nihil non odit quam quibusdam repudiandae soluta? Molestias, recusandae.Ducimus harum impedit in ipsa magni minus natus, nihil non odit quam quibusdam repudiandae soluta? Molestias, recusandae.Ducimus harum impedit in ipsa magni minus natus, nihil non odit quam quibusdam repudiandae soluta? Molestias, recusandae.Ducimus harum impedit in ipsa magni minus natus, nihil non odit quam quibusdam repudiandae soluta? Molestias, recusandae.",
-    "key-features": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto pariatur quam quisquam recusandae! Ducimus harum impedit in ipsa magni minus natus, nihil non odit quam quibusdam repudiandae soluta? Molestias, recusandae. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto pariatur quam quisquam recusandae! Ducimus harum impedit in ipsa magni minus natus, nihil non odit quam quibusdam repudiandae soluta? Molestias, recusandae."
+    "technologies-title": "Technologies",
+    "key-features-title": "Key features",
+    "general": "Almofus is a tool designed to help you keep track of the almanax daily quests. With it, you can keep track of which almanax quests you've already completed and which ones you haven't, which also comes in handy when wanting to complete the 1600 quests success of the game!<br></br> Its creation is rooted in the frustration of coming back to the game after a long pause and having no idea where you stopped and having no real method to track this in-game.",
+    "technologies": "The project was built in TypeScript using NestJs, TypeORM and a PostgreSQL database for the backend part. To initialize the game data in my database, I have used <dofusdb>the DofusDb api</dofusdb>.<br></br>As for the frontend part, I have used React and Next.js.",
+    "key-features": "Almofus' key feature is it's calendar page. On this page, you can create a profile for one or multiple characters and see which quests it has done or not.<br></br>There will be three display types to see and edit your quests:<br></br> - The month display for one character<br></br> - The month display for many characters<br></br> - The list display to see the whole year on one page<br></br>Another feature I want to add is to be able to add the ressources needed for a quest to a shopping list to make getting the necessary ressources in advance easier."
   },
   "file-share-tool": {
     "short-desc": "A tool designed to help you share files with the people you want!",
-    "long-desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto pariatur quam quisquam recusandae! Ducimus harum impedit in ipsa magni minus natus, nihil non odit quam quibusdam repudiandae soluta? Molestias, recusandae."
+    "long-desc": "FileShareTool is a tool designed to help you share files with the people you want! This project is currently in its early stages.",
+    "general-title": "General presentation",
+    "general": "FileShareTool is an application designed to simplify file sharing between users. The app enables users to easily share a folder, making files it contains instantly accessible to others. Users can browse the available files and download them directly within the app.<br></br><br></br>The files are not stored on the server, but are transferred between the clients on demand. "
   },
   "chore-mate": {
     "short-desc": "A tool designed to help you organise the chore of your household",
-    "long-desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto pariatur quam quisquam recusandae! Ducimus harum impedit in ipsa magni minus natus, nihil non odit quam quibusdam repudiandae soluta? Molestias, recusandae."
+    "long-desc": "ChoreMate is a tool designed to help you organise the chore of your household. It is a collaborative project between three people built as a group project during our training.",
+    "general-title": "General presentation",
+    "general": "ChoreMate is a collaborative project I've started with two people from my training at Bruxelles Formation.<br></br><br></br>It is meant to help users organise chores with other people, assign them to someone, mark them as done, make them repeatable or one-time."
+  },
+  "long-project-card": {
+    "project-technologies": "Technologies: "
+  },
+  "project-status": {
+    "IN_DEVELOPMENT": "In development",
+    "PAUSED": "Paused",
+    "IN_PRODUCTION": "In production"
   }
 }
