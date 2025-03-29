@@ -1,7 +1,21 @@
+'use client';
+
 import styles from './header.module.css';
 import ThemeToggle from '@/components/global/theme-toggle/theme-toggle';
 import { useTranslations } from 'next-intl';
-import { Link } from '@/i18n/routing';
+import { Link, usePathname } from '@/i18n/routing';
+import classNames from 'classnames';
+
+type NavLink = {
+  key: string;
+  path: string;
+};
+
+const navLinks: NavLink[] = [
+  { key: 'main-title', path: '/' },
+  { key: 'projects', path: '/projects' },
+  { key: 'about', path: '/about' },
+];
 
 export default function Header() {
   return (
@@ -17,18 +31,18 @@ export default function Header() {
 
 function NavigationBar() {
   const t = useTranslations('header');
+  const activePage = usePathname();
+  console.log(activePage);
   return (
     <nav className={styles.nav}>
       <ul>
-        <li>
-          <Link href={'/'}>{t('main-title')}</Link>
-        </li>
-        <li>
-          <Link href={'/projects'}>{t('projects')}</Link>
-        </li>
-        <li>
-          <Link href={'/about'}>{t('about')}</Link>
-        </li>
+        {navLinks.map((navLink) => (
+          <li key={navLink.key}>
+            <Link className={classNames(activePage === navLink.path && styles.activeLink)} href={navLink.path}>
+              <span>{t(navLink.key)}</span>
+            </Link>
+          </li>
+        ))}
       </ul>
     </nav>
   );

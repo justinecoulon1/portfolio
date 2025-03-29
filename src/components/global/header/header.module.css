@@ -48,6 +48,12 @@
                     position: relative;
                 }
 
+                .activeLink {
+                    & span {
+                        text-decoration: underline;
+                    }
+                }
+
                 & a::before {
                     content: "→";
                     position: relative;
