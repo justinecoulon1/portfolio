@@ -27,7 +27,7 @@ export default async function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <NextIntlClientProvider messages={messages}>
         <body className={athiti.variable}>
-          <ThemeProvider attribute={'data-theme'} defaultTheme={'system'} enableSystem>
+          <ThemeProvider attribute={'data-theme'} defaultTheme={'light'}>
             <Header />
             <main>{children}</main>
           </ThemeProvider>
