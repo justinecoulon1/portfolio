@@ -7,15 +7,15 @@
   "first-section": {
     "section-title": "Hey, I'm Justine Coulon!",
     "resume": "RESUME",
-    "description": "Hey there! I'm Justine, a software developer and a curious mind exploring the world of reading and the art of pixels. I'm proud to have a unique background that combines spoken languages and programming languages! On here you will be able to follow my progress and crafts!"
+    "description": "Hey there! I'm Justine, a software developer and a curious mind exploring the world of reading and the art of pixels. I'm proud to have a unique background that combines spoken languages and programming languages! On here you will be able to follow my progress and crafts!",
+    "location": "Brussels, Belgium"
   },
   "project-section": {
     "section-title": "Featured Projects",
     "see-more": "SEE MORE"
   },
   "resume-section": {
-    "section-title": "Education & Training",
-    "see-more": "SEE MORE"
+    "section-title": "Education & Training"
   },
   "skills-section": {
     "section-title": "Skills & Technologies",
@@ -27,7 +27,7 @@
     "email-input-placeholder": "Your email",
     "message-input-placeholder": "Your message",
     "submit-button": "Submit",
-    "submitting": "Submitting",
+    "submitting": "Submitting...",
     "too_many_requests": "Too many requests, please try again in a minute",
     "email_send_failed": "Failed to send the email, an internal error occurred",
     "invalid_email": "Please enter a valid email",
@@ -40,21 +40,21 @@
     "general-title": "General presentation",
     "technologies-title": "Technologies",
     "key-features-title": "Key features",
-    "general": "Almofus is a tool designed to help you keep track of the almanax daily quests. With it, you can keep track of which almanax quests you've already completed and which ones you haven't, which also comes in handy when wanting to complete the 1600 quests success of the game!<br></br> Its creation is rooted in the frustration of coming back to the game after a long pause and having no idea where you stopped and having no real method to track this in-game.",
-    "technologies": "The project was built in TypeScript using NestJs, TypeORM and a PostgreSQL database for the backend part. To initialize the game data in my database, I have used <dofusdb>the DofusDb api</dofusdb>.<br></br>As for the frontend part, I have used React and Next.js.",
-    "key-features": "Almofus' key feature is it's calendar page. On this page, you can create a profile for one or multiple characters and see which quests it has done or not.<br></br>There will be three display types to see and edit your quests:<br></br> - The month display for one character<br></br> - The month display for many characters<br></br> - The list display to see the whole year on one page<br></br>Another feature I want to add is to be able to add the ressources needed for a quest to a shopping list to make getting the necessary ressources in advance easier."
+    "general": "Almofus is a tool designed to help you keep track of the almanax daily quests of the game Dofus. With it, you can keep track of which almanax quests you've already completed and which ones you haven't, which also comes in handy when wanting to complete the 1600 quests success of the game!<br></br>Its creation is rooted in the frustration of coming back to the game after a long pause and having no idea where you stopped and having no real method to track this in-game.",
+    "technologies": "The project was built in TypeScript using NestJs, TypeORM and a PostgreSQL database for the backend part. To initialize the game data in my database, I have used <dofusdb>the DofusDb API</dofusdb>.<br></br>As for the frontend part, I have used TypeScript with React.js and Next.js.",
+    "key-features": "Almofus' key feature is it's calendar page. On this page, you can create a profile for one or multiple characters and see which quests it has done or not.<br></br>There will be three display types to see and edit your quests:<br></br>\u00a0-\u00a0The month display for one character<br></br>\u00a0-\u00a0The month display for many characters<br></br>\u00a0-\u00a0The list display to see the whole year on one page<br></br>Another feature I want to add is to be able to add the ressources needed for a quest to a shopping list to make getting the necessary ressources in advance easier."
   },
   "file-share-tool": {
     "short-desc": "A tool designed to help you share files with the people you want!",
     "long-desc": "FileShareTool is a tool designed to help you share files with the people you want! This project is currently in its early stages.",
     "general-title": "General presentation",
-    "general": "FileShareTool is an application designed to simplify file sharing between users. The app enables users to easily share a folder, making files it contains instantly accessible to others. Users can browse the available files and download them directly within the app.<br></br><br></br>The files are not stored on the server, but are transferred between the clients on demand. "
+    "general": "FileShareTool is an application designed to simplify file sharing between users. The app enables users to easily share a folder, making files it contains instantly accessible to others. Users can browse the available files and download them directly within the app.<br></br><br></br>The files are not stored on the server, but are transferred between the clients on demand."
   },
   "chore-mate": {
     "short-desc": "A tool designed to help you organise the chore of your household",
     "long-desc": "ChoreMate is a tool designed to help you organise the chore of your household. It is a collaborative project between three people built as a group project during our training.",
     "general-title": "General presentation",
-    "general": "ChoreMate is a collaborative project I've started with two people from my training at Bruxelles Formation.<br></br><br></br>It is meant to help users organise chores with other people, assign them to someone, mark them as done, make them repeatable or one-time."
+    "general": "ChoreMate is a collaborative project I've started for all people of my training at Bruxelles Formation to join. I've worked on it with two people.<br></br><br></br>It is meant to help users organise chores with other people, assign them to someone, mark them as done, make them repeatable or one-time."
   },
   "portfolio": {
     "short-desc": "My personal portfolio",

@@ -5,42 +5,89 @@
     "about": "À PROPOS"
   },
   "first-section": {
-    "section-title": "Bonjour, je suis Justine !",
-    "resume": "CV"
+    "section-title": "Bonjour, je suis Justine\u00a0!",
+    "resume": "CV",
+    "description": "Bonjour\u00a0! Je suis Justine, une développeuse et un esprit curieux qui explore le monde de la lecture et l'art des pixels. Je suis fière d'avoir un parcours unique qui combine les langues et les langages de programmation\u00a0! Sur mon portfolio, vous pourrez suivre mes progrès et les projets sur lesquels je travaille\u00a0!",
+    "location": "Bruxelles, Belgique"
   },
   "project-section": {
     "section-title": "Projets mis en avant",
     "see-more": "VOIR PLUS"
   },
+  "resume-section": {
+    "section-title": "Formation"
+  },
   "skills-section": {
     "section-title": "Compétences & Technologies",
-    "skill": "Compétence"
+    "skill": "Compétences"
   },
   "contact-section": {
-    "form-title": "Entrons en contact !",
+    "form-title": "Entrons en contact\u00a0",
     "name-input-placeholder": "Votre nom",
     "email-input-placeholder": "Votre email",
     "message-input-placeholder": "Votre message",
-    "submit-button": "Envoyer"
+    "submit-button": "Envoyer",
+    "submitting": "Chargement...",
+    "too_many_requests": "Trop de requêtes, essayez à nouveau dans une minute",
+    "email_send_failed": "Échec lors de l'envoi de l'email, une erreur interne s'est produite",
+    "invalid_email": "Veuillez entrer un email valide",
+    "invalid_name_length": "Le nom doit comporter 2 à 50 caractères",
+    "invalid_message_length": "Le message doit comporter 2 à 2000 caractères"
   },
   "almofus": {
     "short-desc": "Un outil développé pour vous aider dans la quête du dofus almanax.",
-    "long-desc": "Almofus est un outil fait pour vous aider à gérer votre avancée dans les quêtes journalières de l'almanax. Avec cet outil, vous pouvez garder une trace des quêtes que vous avez déjà accomplies ou non, ce qui est également pratique pour l'obtention du succès 1600 quêtes accomplies du jeu !"
+    "long-desc": "Almofus est un outil fait pour vous aider à gérer votre avancée dans les quêtes journalières de l'almanax. Avec cet outil, vous pouvez garder une trace des quêtes que vous avez déjà accomplies ou non, ce qui est également pratique pour l'obtention du succès 1600 quêtes accomplies du jeu\u00a0",
+    "general-title": "Présentation générale",
+    "technologies-title": "Technologies",
+    "key-features-title": "Fonctionnalités principales",
+    "general": "Almofus est un outil conçu pour vous aider à avoir un suivi de vos quêtes quotidienne de l'almanax dans le jeu Dofus. Grâce à Almofus, vous pouvez savoir quelles quêtes de l'almanax vous avez déjà accomplies ou non. Ce qui est également pratique pour accomplir le succès des 1600 quêtes du jeu\u00a0!<br></br>Il a été créé pour pallier la frustration de revenir dans le jeu après une longue pause et de ne pas savoir où l'on s'est arrêté dans ses quêtes, et n'avoir aucune méthode pour le savoir dans le jeu.",
+    "technologies": "Le projet a été développé en TypeScript en utilisant NestJs, TypeORM et une base de données PostgreSQL pour la partie backend. Pour initialiser les données du jeu dans ma base de données, j'ai utilisé <dofusdb>l'API DofusDb</dofusdb>.<br></br>Pour la partie frontend, j'ai utilisé TypeScript avec React.js et Next.js.",
+    "key-features": "La fonctionnalité principale d'Almofus est sa page calendrier. Sur cette page, vous pouvez créer un profil pour un ou plusieurs personnages et voir les quêtes qu'il a effectuées ou non.<br></br>Il y aura trois types d'affichage pour voir et éditer vos quêtes\u00a0:<br></br>\u00a0-\u00a0L'affichage par mois pour un personnage<br></br>\u00a0-\u00a0L'affichage par mois pour plusieurs personnages<br></br>\u00a0-\u00a0L'affichage par liste pour voir toute l'année sur une page<br></br>Une autre fonctionnalité que j'aimerais ajouter est de pouvoir ajouter les ressources nécessaires pour une ou plusieurs quêtes à une liste d'achats pour faciliter l'obtention des ressources nécessaires à l'avance."
   },
   "file-share-tool": {
     "short-desc": "Un outil designé pour vous aider à partager des fichiers avec qui vous voulez.",
-    "long-desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto pariatur quam quisquam recusandae! Ducimus harum impedit in ipsa magni minus natus, nihil non odit quam quibusdam repudiandae soluta? Molestias, recusandae."
+    "long-desc": "FileShareTool est un outil conçu pour vous aider à partager des fichiers avec les personnes que vous souhaitez ! Ce projet en est actuellement à ses débuts.",
+    "general-title": "Présentation générale",
+    "general": "FileShareTool est une application conçue pour simplifier le partage de fichiers entre utilisateurs. L'application permet aux utilisateurs de partager facilement un dossier, rendant les fichiers qu'il contient instantanément accessibles aux autres. Les utilisateurs peuvent parcourir les fichiers disponibles et les télécharger directement dans l'application.<br></br><br></br>Les fichiers ne sont pas stockés sur le serveur, mais sont transférés entre les clients à la demande."
   },
   "chore-mate": {
     "short-desc": "Un outil designé pour vous aider à organiser les tâches de votre ménage",
-    "long-desc": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto pariatur quam quisquam recusandae! Ducimus harum impedit in ipsa magni minus natus, nihil non odit quam quibusdam repudiandae soluta? Molestias, recusandae."
+    "long-desc": "ChoreMate est un outil conçu pour vous aider à organiser les tâches ménagères. Il s'agit d'un projet collaboratif entre trois personnes construit en tant que projet de groupe pendant notre formation.",
+    "general-title": "Présentation générale",
+    "general": "ChoreMate est un projet collaboratif que j'ai lancé et qui s'adressait à toutes les personnes de ma formation à Bruxelles Formation. Il a pour but d'aider les utilisateurs à organiser des tâches avec d'autres personnes, à les assigner à quelqu'un, à les marquer comme faites, à les rendre répétables ou uniques."
+  },
+  "portfolio": {
+    "short-desc": "Mon portfolio personnel",
+    "long-desc": "Mon portfolio personnel. C'est le site que vous utilisez actuellement ! Sur ce site, vous pourrez suivre mes progrès et mes projets\u00a0!",
+    "general-title": "General presentation",
+    "general": "Mon portfolio personnel. C'est le site que vous utilisez actuellement ! Sur ce site, vous pourrez suivre mes progrès et mes projets\u00a0!"
   },
   "long-project-card": {
-    "project-technologies": "Technologies : "
+    "project-technologies": "Technologies\u00a0: "
   },
   "project-status": {
     "IN_DEVELOPMENT": "En développement",
     "PAUSED": "En pause",
     "IN_PRODUCTION": "En production"
+  },
+  "bx-formation-training": {
+    "title": "FORMATION DE DÉVELOPPEUR",
+    "description": "Formation en développement fullstack JavaScript à Bruxelles-Formation."
+  },
+  "udemy-training": {
+    "title": "AUTO-FORMATION DÉVELOPPEMENT JAVA",
+    "description": "Auto-formation sur Udemy et création de projets personnels en utilisant Java, Spring Boot et Swing."
+  },
+  "erasmus": {
+    "title": "ERASMUS",
+    "description": "Erasmus en Espagne (Soria) à l’Université de Valladolid (UVa)."
+  },
+  "translation-master": {
+    "title": " BACHELIER & MASTER EN TRADUCTION",
+    "description": "Bachelier et master en traduction multidisciplinaire à la Faculté\n de Traduction et d’Interprétation (FTI-EII)."
+  },
+  "about": {
+    "title": "En savoir plus sur moi !",
+    "presentation": "J'adore apprendre, qu'il s'agisse d'un nouveau langage de programmation, d'une langue ou de l'art de transformer de petits carrés en quelque chose de créatif. En ce moment, je me consacre à des projets de programmation (vous pouvez les trouver <projects>ici</projects>) tout en explorant le monde du pixel art. Mélanger la programmation, le pixel art, et ma passion pour les jeux vidéo pourrait bien devenir un objectif à long terme \uD83D\uDC40."
   }
 }

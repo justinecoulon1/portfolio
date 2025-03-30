@@ -26,7 +26,7 @@ export default function FirstSection({ onProfilePictureClick }: { onProfilePictu
       <div className={styles.presentationSection}>
         <div className={styles.profileLocationSection}>
           <MapPin className={styles.mapPin} size={24} />
-          <p>Brussels, Belgium</p>
+          <p>{t('location')}</p>
         </div>
         <div className={styles.presentationTitle}>
           <h1>{t('section-title')}</h1>
