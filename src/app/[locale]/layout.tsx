@@ -5,6 +5,7 @@ import { getMessages } from 'next-intl/server';
 import { ThemeProvider } from 'next-themes';
 import Header from '@/components/global/header/header';
 import { Athiti } from 'next/font/google';
+import { Toaster } from 'react-hot-toast';
 
 const athiti = Athiti({
   variable: '--font-athiti',
@@ -29,7 +30,10 @@ export default async function RootLayout({
         <body className={athiti.variable}>
           <ThemeProvider attribute={'data-theme'} defaultTheme={'light'}>
             <Header />
-            <main>{children}</main>
+            <main>
+              <Toaster />
+              {children}
+            </main>
           </ThemeProvider>
         </body>
       </NextIntlClientProvider>

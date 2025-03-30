@@ -4,6 +4,7 @@ import { useTranslations } from 'next-intl';
 import { useActionState, useId } from 'react';
 import { z } from 'zod';
 import axios, { AxiosError } from 'axios';
+import toast from 'react-hot-toast';
 
 const sendMessageSchema = z.object({
   name: z.string().min(2, { message: 'invalid_name_length' }).max(50, { message: 'invalid_name_length' }).trim(),
@@ -38,6 +39,14 @@ export default function ContactSection() {
     try {
       await axios.post('/api/contact', result.data, {
         headers: { 'Content-Type': 'application/json' },
+      });
+      toast.success(t('email-sent'), {
+        style: {
+          backgroundColor: 'var(--tertiary)',
+          color: 'var(--secondary-vibrant)',
+          border: '1px solid var(--secondary-vibrant)',
+          fontSize: '1.2rem',
+        },
       });
       return { error: null };
     } catch (error) {
