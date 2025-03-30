@@ -57,7 +57,7 @@ function ProjectHeaderSection({ project }: { project: Project }) {
         <div className={classNames(styles.linkDiv)}>
           <Image
             className={classNames(styles.linkImage)}
-            src={'/icons/github-bgc.png'}
+            src={'/icons/github.png'}
             width={512}
             height={512}
             alt={'github'}

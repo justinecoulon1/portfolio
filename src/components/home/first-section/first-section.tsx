@@ -58,7 +58,7 @@ function LinksSection() {
         <Link target="_blank" href={'https://github.com/justinecoulon1'}>
           <Image
             className={classNames(styles.linkImage)}
-            src={'/icons/github-bgc.png'}
+            src={'/icons/github.png'}
             width={512}
             height={512}
             alt={'github'}

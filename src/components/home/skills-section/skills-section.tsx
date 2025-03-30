@@ -12,8 +12,8 @@ export default function SkillsSection() {
         <h2>{t('section-title')}</h2>
       </div>
       <div className={styles.skillList}>
-        <SkillCard imageSrc={'/icons/TypeScript.png'} imageText={'Typescript'} />
-        <SkillCard imageSrc={'/icons/JavaScript.png'} imageText={'Javascript'} />
+        <SkillCard imageSrc={'/icons/TypeScript.png'} imageText={'TypeScript'} />
+        <SkillCard imageSrc={'/icons/JavaScript.png'} imageText={'JavaScript'} />
         <SkillCard imageSrc={'/icons/Node.js.png'} imageText={'Node.js'} />
         <SkillCard imageSrc={'/icons/Nest.js.png'} imageText={'NestJs'} />
         <SkillCard whiteBackground={true} imageSrc={'/icons/Express.png'} imageText={'Express'} />
@@ -25,7 +25,7 @@ export default function SkillsSection() {
         <SkillCard imageSrc={'/icons/CSS3.png'} imageText={'CSS'} />
         <SkillCard imageSrc={'/icons/PostgreSQL.png'} imageText={'PostgreSQL'} />
         <SkillCard imageSrc={'/icons/MongoDB.png'} imageText={'MongoDB'} />
-        <SkillCard imageSrc={'/icons/git.png'} imageText={'Git'} />
+        <SkillCard imageSrc={'/icons/Git.png'} imageText={'Git'} />
       </div>
     </div>
   );
