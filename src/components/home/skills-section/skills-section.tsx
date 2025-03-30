@@ -13,7 +13,7 @@ export default function SkillsSection() {
       </div>
       <div className={styles.skillList}>
         <SkillCard imageSrc={'/icons/TypeScript.png'} imageText={'TypeScript'} />
-        <SkillCard imageSrc={'/icons/JavaScript.png'} imageText={'JavaScript'} />
+        <SkillCard imageSrc={'/icons/JS.png'} imageText={'JavaScript'} />
         <SkillCard imageSrc={'/icons/Node.js.png'} imageText={'Node.js'} />
         <SkillCard imageSrc={'/icons/Nest.js.png'} imageText={'NestJs'} />
         <SkillCard whiteBackground={true} imageSrc={'/icons/Express.png'} imageText={'Express'} />
@@ -43,7 +43,7 @@ function SkillCard({
   return (
     <div className={styles.skillCardDiv}>
       <div className={classNames(styles.skillImageContainer, whiteBackground && styles.whiteBackground)}>
-        <Image className={styles.skillImage} width={512} height={512} src={imageSrc} alt={'skill logo'} />
+        <Image className={styles.skillImage} width={512} height={512} src={imageSrc} alt={`${imageText}-logo`} />
       </div>
       <p>{imageText}</p>
     </div>
