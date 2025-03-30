@@ -36,7 +36,6 @@ export default function Header() {
 function NavigationBar() {
   const t = useTranslations('header');
   const activePage = usePathname();
-  console.log(activePage);
   return (
     <nav className={styles.nav}>
       <ul>
