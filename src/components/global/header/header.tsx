@@ -6,6 +6,7 @@ import { useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/i18n/routing';
 import classNames from 'classnames';
 import Image from 'next/image';
+import LocalePicker from '@/components/global/locale-picker/locale-picker';
 
 type NavLink = {
   key: string;
@@ -27,7 +28,10 @@ export default function Header() {
           Justine
         </Link>
         <NavigationBar />
-        <ThemeToggle />
+        <div className={styles.pickersDiv}>
+          <LocalePicker />
+          <ThemeToggle />
+        </div>
       </div>
     </header>
   );
