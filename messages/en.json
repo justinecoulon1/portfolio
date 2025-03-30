@@ -85,5 +85,9 @@
   "translation-master": {
     "title": "BACHELOR & MASTER’S DEGREE IN TRANSLATION",
     "description": "Bachelor and master’s degree with a multidisciplinary focus at the Faculty of Translation and Interpretation (FTI-EII)."
+  },
+  "about": {
+    "title": "More about me!",
+    "presentation": "I love learning whether it's a new programming language, a spoken language or the art of turning tiny squares into something creative. I also enjoy playing games or getting lost in a good book. <br></br>Right now, I'm working on some programming projects (you can find them <projects>here</projects>) while also exploring the world of pixel art. Blending coding, pixel art, and my passion for video games might just become a long-term goal \uD83D\uDC40."
   }
 }

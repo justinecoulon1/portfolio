@@ -1,0 +1,45 @@
+.aboutPage {
+    display: flex;
+    justify-content: center;
+
+    width: 100%;
+    padding: 3rem 0 3rem 0;
+
+
+    .aboutPageContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 50%;
+
+        gap: 2.5rem;
+        padding: 3rem 0 3rem 0;
+
+        font-size: 1.2rem;
+        text-align: justify;
+
+        .aboutPagePresentationSection {
+            display: flex;
+            flex-direction: column;
+
+            & p {
+
+                & a {
+                    text-decoration: underline;
+
+                }
+            }
+        }
+
+        .aboutPageHeaderSection {
+            display: flex;
+            width: 100%;
+
+            & h2 {
+                font-size: 2rem;
+                width: 100%;
+            }
+        }
+    }
+}
