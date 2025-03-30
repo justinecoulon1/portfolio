@@ -22,10 +22,10 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.headerDiv}>
-        <div className={styles.logoDiv}>
+        <Link href={'/'} className={styles.logoDiv}>
           <Image className={styles.logo} src={'/icons/placeholder.png'} width={512} height={512} alt={'profile'} />
           Justine
-        </div>
+        </Link>
         <NavigationBar />
         <ThemeToggle />
       </div>
