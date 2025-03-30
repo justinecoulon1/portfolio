@@ -11,7 +11,7 @@
     "location": "Bruxelles, Belgique"
   },
   "project-section": {
-    "section-title": "Projets mis en avant",
+    "section-title": "Projets principaux",
     "see-more": "VOIR PLUS"
   },
   "resume-section": {
@@ -35,26 +35,26 @@
     "invalid_message_length": "Le message doit comporter 2 à 2000 caractères"
   },
   "almofus": {
-    "short-desc": "Un outil développé pour vous aider dans la quête du dofus almanax.",
+    "short-desc": "Un outil fait pour vous aider dans la quête du Dolmanax sur le jeu Dofus.",
     "long-desc": "Almofus est un outil fait pour vous aider à gérer votre avancée dans les quêtes journalières de l'almanax. Avec cet outil, vous pouvez garder une trace des quêtes que vous avez déjà accomplies ou non, ce qui est également pratique pour l'obtention du succès 1600 quêtes accomplies du jeu\u00a0",
     "general-title": "Présentation générale",
     "technologies-title": "Technologies",
     "key-features-title": "Fonctionnalités principales",
-    "general": "Almofus est un outil conçu pour vous aider à avoir un suivi de vos quêtes quotidienne de l'almanax dans le jeu Dofus. Grâce à Almofus, vous pouvez savoir quelles quêtes de l'almanax vous avez déjà accomplies ou non. Ce qui est également pratique pour accomplir le succès des 1600 quêtes du jeu\u00a0!<br></br>Il a été créé pour pallier la frustration de revenir dans le jeu après une longue pause et de ne pas savoir où l'on s'est arrêté dans ses quêtes, et n'avoir aucune méthode pour le savoir dans le jeu.",
-    "technologies": "Le projet a été développé en TypeScript en utilisant NestJs, TypeORM et une base de données PostgreSQL pour la partie backend. Pour initialiser les données du jeu dans ma base de données, j'ai utilisé <dofusdb>l'API DofusDb</dofusdb>.<br></br>Pour la partie frontend, j'ai utilisé TypeScript avec React.js et Next.js.",
+    "general": "Almofus est un outil conçu pour vous aider à avoir un suivi de vos quêtes quotidiennes de l'almanax dans le jeu Dofus. Grâce à Almofus, vous pouvez savoir quelles quêtes de l'almanax vous avez déjà accomplies ou non. Ce qui est également pratique pour accomplir le succès des 1600 quêtes du jeu\u00a0!<br></br>Il a été créé pour pallier la frustration de revenir dans le jeu après une longue pause et de ne pas savoir où l'on s'est arrêté dans ses quêtes, et n'avoir aucune manière de le savoir dans le jeu.",
+    "technologies": "Le backend du projet a été fait en utilisant TypeScript avec NestJs, TypeORM et une base de données PostgreSQL. Pour initialiser les données du jeu dans ma base de données, j'ai utilisé <dofusdb>l'API DofusDb</dofusdb>.<br></br>Pour la partie frontend, j'ai utilisé TypeScript avec React.js et Next.js.",
     "key-features": "La fonctionnalité principale d'Almofus est sa page calendrier. Sur cette page, vous pouvez créer un profil pour un ou plusieurs personnages et voir les quêtes qu'il a effectuées ou non.<br></br>Il y aura trois types d'affichage pour voir et éditer vos quêtes\u00a0:<br></br>\u00a0-\u00a0L'affichage par mois pour un personnage<br></br>\u00a0-\u00a0L'affichage par mois pour plusieurs personnages<br></br>\u00a0-\u00a0L'affichage par liste pour voir toute l'année sur une page<br></br>Une autre fonctionnalité que j'aimerais ajouter est de pouvoir ajouter les ressources nécessaires pour une ou plusieurs quêtes à une liste d'achats pour faciliter l'obtention des ressources nécessaires à l'avance."
   },
   "file-share-tool": {
-    "short-desc": "Un outil designé pour vous aider à partager des fichiers avec qui vous voulez.",
+    "short-desc": "Un outil conçu pour vous aider à partager des fichiers avec qui vous voulez.",
     "long-desc": "FileShareTool est un outil conçu pour vous aider à partager des fichiers avec les personnes que vous souhaitez ! Ce projet en est actuellement à ses débuts.",
     "general-title": "Présentation générale",
     "general": "FileShareTool est une application conçue pour simplifier le partage de fichiers entre utilisateurs. L'application permet aux utilisateurs de partager facilement un dossier, rendant les fichiers qu'il contient instantanément accessibles aux autres. Les utilisateurs peuvent parcourir les fichiers disponibles et les télécharger directement dans l'application.<br></br><br></br>Les fichiers ne sont pas stockés sur le serveur, mais sont transférés entre les clients à la demande."
   },
   "chore-mate": {
-    "short-desc": "Un outil designé pour vous aider à organiser les tâches de votre ménage",
+    "short-desc": "Un outil conçu pour vous aider à organiser les tâches de votre ménage.",
     "long-desc": "ChoreMate est un outil conçu pour vous aider à organiser les tâches ménagères. Il s'agit d'un projet collaboratif entre trois personnes construit en tant que projet de groupe pendant notre formation.",
     "general-title": "Présentation générale",
-    "general": "ChoreMate est un projet collaboratif que j'ai lancé et qui s'adressait à toutes les personnes de ma formation à Bruxelles Formation. Il a pour but d'aider les utilisateurs à organiser des tâches avec d'autres personnes, à les assigner à quelqu'un, à les marquer comme faites, à les rendre répétables ou uniques."
+    "general": "ChoreMate est un projet collaboratif que j'ai lancé et qui était ouvert à toutes les personnes de ma formation à Bruxelles Formation.<br></br>Il a pour but d'aider les utilisateurs à organiser des tâches avec d'autres personnes, à les assigner à quelqu'un, à les marquer comme faites, à les rendre répétables ou ponctuelles.<br></br>Idéal pour organiser les corvées de votre ménage, que ce soit seul, en famille ou en coloc, ou même pour organiser vos soirées\u00a0!"
   },
   "portfolio": {
     "short-desc": "Mon portfolio personnel",
@@ -88,6 +88,6 @@
   },
   "about": {
     "title": "En savoir plus sur moi !",
-    "presentation": "J'adore apprendre, qu'il s'agisse d'un nouveau langage de programmation, d'une langue ou de l'art de transformer de petits carrés en quelque chose de créatif. En ce moment, je me consacre à des projets de programmation (vous pouvez les trouver <projects>ici</projects>) tout en explorant le monde du pixel art. Mélanger la programmation, le pixel art, et ma passion pour les jeux vidéo pourrait bien devenir un objectif à long terme\u00a0\uD83D\uDC40."
+    "presentation": "J'adore apprendre, qu'il s'agisse d'un nouveau langage de programmation, d'une langue ou de l'art de transformer de petits carrés en quelque chose de créatif. Je suis aussi passionnée de jeux vidéo et de lecture.<br></br>En ce moment, je me consacre à des projets de programmation (vous pouvez les trouver <projects>ici</projects>), tout en explorant le monde du pixel art. Mélanger la programmation, le pixel art, et ma passion pour les jeux vidéo pourrait bien devenir un objectif à long terme\u00a0\uD83D\uDC40."
   }
 }

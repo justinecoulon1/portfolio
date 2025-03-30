@@ -35,13 +35,13 @@
     "invalid_message_length": "Message should be 2 to 2000 characters long"
   },
   "almofus": {
-    "short-desc": "A tool designed to help you in the dofus almanax quests",
+    "short-desc": "A tool designed to help you in the Dolmanax quest in the game Dofus",
     "long-desc": "Almofus is a tool designed for the game Dofus, made to help you keep track of the almanax daily quests. With it, you can keep track of which almanax quests you've already completed and which ones you haven't, which also comes in handy when wanting to complete the 1600 quests success of the game!",
     "general-title": "General presentation",
     "technologies-title": "Technologies",
     "key-features-title": "Key features",
     "general": "Almofus is a tool designed to help you keep track of the almanax daily quests of the game Dofus. With it, you can keep track of which almanax quests you've already completed and which ones you haven't, which also comes in handy when wanting to complete the 1600 quests success of the game!<br></br>Its creation is rooted in the frustration of coming back to the game after a long pause and having no idea where you stopped and having no real method to track this in-game.",
-    "technologies": "The project was built in TypeScript using NestJs, TypeORM and a PostgreSQL database for the backend part. To initialize the game data in my database, I have used <dofusdb>the DofusDb API</dofusdb>.<br></br>As for the frontend part, I have used TypeScript with React.js and Next.js.",
+    "technologies": "The backend of the project was built in TypeScript using NestJs, TypeORM and a PostgreSQL database. To initialize the game data in my database, I have used <dofusdb>the DofusDb API</dofusdb>.<br></br>As for the frontend part, I have used TypeScript with React.js and Next.js.",
     "key-features": "Almofus' key feature is it's calendar page. On this page, you can create a profile for one or multiple characters and see which quests it has done or not.<br></br>There will be three display types to see and edit your quests:<br></br>\u00a0-\u00a0The month display for one character<br></br>\u00a0-\u00a0The month display for many characters<br></br>\u00a0-\u00a0The list display to see the whole year on one page<br></br>Another feature I want to add is to be able to add the ressources needed for a quest to a shopping list to make getting the necessary ressources in advance easier."
   },
   "file-share-tool": {
@@ -54,7 +54,7 @@
     "short-desc": "A tool designed to help you organise the chore of your household",
     "long-desc": "ChoreMate is a tool designed to help you organise the chore of your household. It is a collaborative project between three people built as a group project during our training.",
     "general-title": "General presentation",
-    "general": "ChoreMate is a collaborative project I've started for all people of my training at Bruxelles Formation to join. I've worked on it with two people.<br></br><br></br>It is meant to help users organise chores with other people, assign them to someone, mark them as done, make them repeatable or one-time."
+    "general": "ChoreMate is a collaborative project I've started for all people of my training at Bruxelles Formation to join. I've worked on it with two people.<br></br>It is meant to help users organise chores with other people, assign them to someone, mark them as done, make them repeatable or one-time.<br></br>Ideal to organize the chores of your household, whether you are living alone, with family or roommates, or even to plan a party!"
   },
   "portfolio": {
     "short-desc": "My personal portfolio",
@@ -88,6 +88,6 @@
   },
   "about": {
     "title": "More about me!",
-    "presentation": "I love learning whether it's a new programming language, a spoken language or the art of turning tiny squares into something creative. I also enjoy playing games or getting lost in a good book. <br></br>Right now, I'm working on some programming projects (you can find them <projects>here</projects>) while also exploring the world of pixel art. Blending coding, pixel art, and my passion for video games might just become a long-term goal\u00a0\uD83D\uDC40."
+    "presentation": "I love learning whether it's a new programming language, a spoken language or the art of turning tiny squares into something creative. I also enjoy playing video games or getting lost in a good book.<br></br>Right now, I'm working on some programming projects (you can find them <projects>here</projects>) while also exploring the world of pixel art. Blending coding, pixel art, and my passion for video games might just become a long-term goal\u00a0\uD83D\uDC40."
   }
 }
