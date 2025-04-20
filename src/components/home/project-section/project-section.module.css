@@ -19,6 +19,7 @@
 
         width: 50%;
 
+
         .projectCard {
             display: flex;
             flex-direction: column;
@@ -28,7 +29,7 @@
             width: 19rem;
             gap: 1rem;
 
-            background-color: var(--primary);
+            background-color: var(--primary-vibrant);
 
             .projectCardImageContainer {
                 display: flex;

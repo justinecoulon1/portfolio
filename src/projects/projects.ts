@@ -54,4 +54,14 @@ export const portfolio: Project = {
   status: ProjectStatus.IN_PRODUCTION,
 };
 
-export const projectsList = [almofus, portfolio, fileShareTool, choreMate];
+export const betterReads: Project = {
+  name: 'Better-Reads',
+  projectKey: 'better-reads',
+  bannerBackgroundColor: '#f6cb3a',
+  githubLink: 'https://github.com/justinecoulon1/tfe-front',
+  sections: ['general', 'technologies', 'key-features'],
+  technologies: ['TypeScript', 'NestJs', 'TypeORM', 'PostgreSQL', 'React.js', 'Next.js'],
+  status: ProjectStatus.IN_DEVELOPMENT,
+};
+
+export const projectsList = [betterReads, almofus, portfolio, fileShareTool, choreMate];

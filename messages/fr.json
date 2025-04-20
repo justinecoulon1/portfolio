@@ -57,6 +57,16 @@
     "general-title": "Présentation générale",
     "general": "ChoreMate est un projet collaboratif que j'ai lancé et qui était ouvert à toutes les personnes de ma formation à Bruxelles Formation.<br></br>Il a pour but d'aider les utilisateurs à organiser des tâches avec d'autres personnes, à les assigner à quelqu'un, à les marquer comme faites, à les rendre répétables ou ponctuelles.<br></br>Idéal pour organiser les corvées de votre ménage, que ce soit seul, en famille ou en coloc, ou même pour organiser vos soirées\u00a0!"
   },
+  "better-reads": {
+    "short-desc": "BetterReads est une application web pour les passionnés de lecture, pensée pour suivre et organiser vos lectures !",
+    "long-desc": "BetterReads est une application web pensée pour les lecteurs qui souhaitent suivre leurs lectures, organiser leurs bibliothèques virtuelles et découvrir de nouveaux livres. Lassée des plateformes peu ergonomiques et vieillissantes, j’ai conçu BetterReads comme une alternative moderne, claire et personnalisable.",
+    "general-title": "Présentation générale",
+    "technologies-title": "Technologies",
+    "key-features-title": "Fonctionnalités principales",
+    "general": "BetterReads est une plateforme collaborative de suivi de lecture, conçue comme une alternative plus agréable et plus actuelle aux solutions existantes. Elle permet de gérer sa bibliothèque, suivre ses lectures, et explorer des ouvrages partagés par la communauté. L’objectif était de proposer une application intuitive et moderne où la lecture devient sociale, organisée et agréable.<br></br>J’ai voulu créer un outil que j’aurais plaisir à utiliser au quotidien, et qui centralise toutes les fonctionnalités que j’attendais d’un tel service.",
+    "technologies": "Le projet utilise une stack TypeScript complète : un backend développé avec NestJS, TypeORM et une base de données PostgreSQL. Le frontend repose sur React avec Next.js. Des APIs externes sont intégrées pour récupérer automatiquement les données des livres à partir de leur ISBN, afin d’assurer cohérence et rapidité.",
+    "key-features": "BetterReads propose plusieurs fonctionnalités clés pensées pour enrichir l’expérience utilisateur, entre suivi personnel et interaction sociale :<br></br>\u00a0-\u00a0Ajout collaboratif de livres avec récupération automatique des données et vérification par ISBN<br></br>\u00a0-\u00a0Barre de recherche fuzzy avec tolérance aux fautes<br></br>\u00a0-\u00a0Système de statut de lecture personnalisable (Lu, En cours, À lire)<br></br>\u00a0-\u00a0Historique des lectures retraçant les changements de statuts des livres<br></br>\u00a0-\u00a0Étagères virtuelles pour organiser ses livres<br></br>\u00a0-\u00a0Gestion des rôles utilisateurs (Membre, Modérateur, Admin)<br></br>\u00a0-\u00a0Pages dédiées aux auteurs avec leurs livres associés<br></br><br></br>Parmi les évolutions prévues : système de critiques et de notation, statistiques de lecture personnelles, et gestion de séries (trilogies, sagas, etc.)."
+  },
   "portfolio": {
     "short-desc": "Mon portfolio personnel",
     "long-desc": "Mon portfolio personnel. C'est le site que vous utilisez actuellement ! Sur ce site, vous pourrez suivre mes progrès et mes projets\u00a0!",

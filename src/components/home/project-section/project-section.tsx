@@ -3,7 +3,7 @@ import { useTranslations } from 'next-intl';
 import Image from 'next/image';
 import classNames from 'classnames';
 import { Link } from '@/i18n/routing';
-import { almofus, choreMate, fileShareTool, Project } from '@/projects/projects';
+import { almofus, betterReads, fileShareTool, Project } from '@/projects/projects';
 
 export default function ProjectSection() {
   const t = useTranslations('project-section');
@@ -14,14 +14,14 @@ export default function ProjectSection() {
         <h2>{t('section-title')}</h2>
       </div>
       <div className={styles.projectSmallCardList}>
+        <Link href={'/projects/better-reads'}>
+          <SmallProjectCard project={betterReads} />
+        </Link>
         <Link href={'/projects/almofus'}>
           <SmallProjectCard project={almofus} />
         </Link>
         <Link href={'/projects/file-share-tool'}>
           <SmallProjectCard project={fileShareTool} />
-        </Link>
-        <Link href={'/projects/chore-mate'}>
-          <SmallProjectCard project={choreMate} />
         </Link>
       </div>
     </div>

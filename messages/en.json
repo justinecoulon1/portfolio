@@ -57,6 +57,16 @@
     "general-title": "General presentation",
     "general": "ChoreMate is a collaborative project I've started for all people of my training at Bruxelles Formation to join. I've worked on it with two people.<br></br>It is meant to help users organise chores with other people, assign them to someone, mark them as done, make them repeatable or one-time.<br></br>Ideal to organize the chores of your household, whether you are living alone, with family or roommates, or even to plan a party!"
   },
+  "better-reads": {
+    "short-desc": "Better-Reads is a web application for book lovers to help you keep track of your readings!",
+    "long-desc": "BetterReads is a web application designed for readers who want to track their books, reading progress, organize their shelves, and discover new titles. Tired of outdated and clunky platforms, I created BetterReads with the goal of offering a clean, modern alternative that focuses on usability and customization.",
+    "general-title": "General presentation",
+    "technologies-title": "Technologies",
+    "key-features-title": "Key features",
+    "general": "BetterReads is a collaborative book tracking platform built to offer an improved alternative to existing solutions. It allows users to manage their personal library, track reading progress, and explore books shared by others. The goal was to build a user-friendly and modern application where reading becomes social, organized, and fun.<br></br>With this project, I wanted to create something that I, and others, would enjoy using daily — with all features I love at the same place.",
+    "technologies": "The backend was developed in TypeScript using NestJS, TypeORM, and a PostgreSQL database. For the frontend, I used TypeScript with React (Next.js). External APIs are used to automatically fetch book data via ISBN, improving both user experience and data consistency.",
+    "key-features": "BetterReads includes several key features that enhance both personal tracking and social interaction:<br></br>\u00a0-\u00a0Collaborative book addition with automatic data fetching from an external API and ISBN validation<br></br>\u00a0-\u00a0Fuzzy search with typo tolerance for books and authors<br></br>\u00a0-\u00a0Custom reading status system (e.g., Read, Currently Reading, To Read)<br></br>\u00a0-\u00a0Reading history that tracks your book status changes<br></br>\u00a0-\u00a0Virtual bookshelves to organize collections<br></br>\u00a0-\u00a0User role management (Member, Moderator, Admin)<br></br>\u00a0-\u00a0Dedicated author pages with their associated books<br></br><br></br>Planned features include review and rating systems, personal reading statistics, and series management."
+  },
   "portfolio": {
     "short-desc": "My personal portfolio",
     "long-desc": "My personal portfolio. That's the website you are currently using! On here you will be able to follow my progress and crafts!",
