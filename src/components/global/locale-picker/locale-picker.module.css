@@ -38,3 +38,9 @@
         background-color: var(--tertiary);
     }
 }
+
+@media (max-width: 600px) {
+    .localePickerContainer {
+        display: none;
+    }
+}

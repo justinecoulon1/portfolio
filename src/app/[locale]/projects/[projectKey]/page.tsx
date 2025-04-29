@@ -63,7 +63,7 @@ function ProjectHeaderSection({ project }: { project: Project }) {
             alt={'github'}
           />
         </div>
-        <span>GitHub</span>
+        <span className={styles.githubLinkText}>GitHub</span>
       </Link>
     </div>
   );

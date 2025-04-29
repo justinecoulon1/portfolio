@@ -7,13 +7,17 @@
 
     gap: 5rem;
 
-
     .profilePictureSection {
         display: flex;
         flex-direction: column;
+        align-items: center;
         gap: 2rem;
 
         .profilePictureContainer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: fit-content;
             background-color: var(--tertiary);
 
             border-radius: 50%;
@@ -66,6 +70,7 @@
                 width: 7rem;
 
                 & a {
+                    gap: 0.5rem;
                     color: var(--text-primary);
 
                     .downloadImage {
@@ -102,7 +107,131 @@
             text-align: justify;
         }
     }
-
-
 }
 
+@media (max-width: 1024px) {
+    .firstSectionContainer {
+        width: 80%;
+
+        .profilePictureSection {
+            .profilePictureContainer {
+                border-radius: 50%;
+
+                padding: 1rem;
+
+                .profilePicture {
+                    height: 13rem;
+                    width: 13rem;
+                }
+            }
+
+            .linksSection {
+                .linkImage {
+                    height: 1.9rem;
+                    width: 1.9rem;
+                }
+
+                .linkDiv {
+                    width: 2.5rem;
+                    height: 2.5rem;
+                }
+
+                .resumeDiv {
+                    width: 7rem;
+
+                    & a {
+                        .downloadImage {
+                            height: 1.4rem;
+                            width: 1.4rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .presentationSection {
+            gap: 1rem;
+
+            .profileLocationSection {
+                font-size: 1rem;
+            }
+
+            .presentationTitle {
+                font-size: 1.1rem;
+            }
+
+            .presentationDescription {
+                font-size: 1.2rem;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 600px) {
+    .firstSectionContainer {
+        width: 80%;
+        gap: 1.3rem;
+
+        .profilePictureSection {
+            gap: 2.5rem;
+
+            .profilePictureContainer {
+                border-radius: 50%;
+
+                padding: 1rem;
+
+                .profilePicture {
+                    height: 10rem;
+                    width: 10rem;
+                }
+            }
+
+            .linksSection {
+                gap: 1rem;
+
+                .linkImage {
+                    height: 1.7rem;
+                    width: 1.7rem;
+                }
+
+                .linkDiv {
+                    width: 2.2rem;
+                    height: 2.2rem;
+                }
+
+                .resumeDiv {
+                    width: 7rem;
+
+                    & a {
+                        .downloadImage {
+                            height: 1.2rem;
+                            width: 1.2rem;
+                        }
+
+                        & p {
+                            font-size: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+
+        .presentationSection {
+            gap: 1rem;
+
+            .profileLocationSection {
+                font-size: 1rem;
+                gap: 1rem;
+            }
+
+            .presentationTitle {
+                font-size: 1rem;
+            }
+
+            .presentationDescription {
+                font-size: 1.1rem;
+            }
+        }
+    }
+}

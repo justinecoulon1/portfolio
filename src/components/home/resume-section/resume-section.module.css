@@ -35,8 +35,48 @@
 
             .resumeExperienceInfo {
                 width: 100%;
-                
+
                 text-align: justify;
+            }
+        }
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .resumeSectionContainer {
+        .sectionHeader {
+            width: 70%;
+            font-size: 1rem;
+        }
+
+        .resumeSectionContentContainer {
+            width: 70%;
+            gap: 0;
+
+            .resumeCardSection {
+                display: flex;
+                flex-direction: column;
+
+                padding: 0.8rem 0;
+
+                width: 100%;
+
+                .resumeExperienceDate {
+                    width: 100%;
+
+                    font-weight: bold;
+                }
+
+                .resumeExperienceInfo {
+                    width: 100%;
+
+                    text-align: justify;
+                }
+            }
+
+            .resumeCardSection:not(:last-child) {
+                border-bottom: 1px solid var(--secondary-vibrant);
             }
         }
     }

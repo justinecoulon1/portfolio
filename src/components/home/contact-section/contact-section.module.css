@@ -100,3 +100,111 @@
         }
     }
 }
+
+@media (max-width: 1024px) {
+    .contactSectionContainer {
+        width: 100%;
+
+        .sectionHeader {
+            width: 70%;
+        }
+
+        .form {
+            width: 70%;
+
+            .firstLine {
+
+                .firstLineInputDiv {
+                    width: 50%;
+                    gap: 0.5rem;
+
+                    & input {
+                        width: 100%;
+                    }
+
+                    & span {
+                        padding: 0 0 0 0.5rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .contactSectionContainer {
+        width: 100%;
+        gap: 1rem;
+
+        .sectionHeader {
+            font-size: 1rem;
+            width: 70%;
+        }
+
+        .form {
+            width: 70%;
+            gap: 1rem;
+
+            .inputs {
+                height: 2rem;
+                padding: 0.2rem;
+                border-radius: 0.5rem;
+                font-size: 0.8rem;
+            }
+
+            .firstLine {
+                gap: 1rem;
+
+                .firstLineInputDiv {
+                    width: 50%;
+                    gap: 0.5rem;
+
+                    & input {
+                        width: 100%;
+                    }
+
+                    & span {
+                        padding: 0 0 0 0.5rem;
+                        font-size: 0.8rem;
+                        font-weight: 600;
+                    }
+                }
+            }
+
+            .secondLine {
+                gap: 1rem;
+                width: 100%;
+
+                .inputDiv {
+                    width: 100%;
+                    gap: 0.5rem;
+
+                    & textarea {
+                        height: 7rem;
+                        width: 100%;
+                    }
+
+                    & span {
+                        padding: 0 0 0 0.5rem;
+                        font-size: 0.8rem;
+                        font-weight: 600;
+                    }
+                }
+            }
+
+            .submitFormDiv {
+
+                .submitFormButton {
+                    width: 5rem;
+                    border-radius: 0;
+                }
+
+                & span {
+                    padding: 0 0 0 0.5rem;
+                    font-size: 0.8rem;
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}

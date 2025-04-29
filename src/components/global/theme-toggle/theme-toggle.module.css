@@ -56,3 +56,27 @@ input:focus + .slider {
 input:checked + .slider:before {
     transform: translateX(1.9em);
 }
+
+@media (max-width: 600px) {
+    .switch {
+        width: 1.75em;
+        height: 0.75em;
+        border-radius: 1rem;
+    }
+
+    .slider {
+        border-radius: 1rem;
+    }
+
+    .slider:before {
+        height: 0.55em;
+        width: 0.55em;
+        left: 0.1em;
+        bottom: 0.1em;
+        border-radius: 1.25em;
+    }
+
+    input:checked + .slider:before {
+        transform: translateX(0.95em);
+    }
+}

@@ -7,16 +7,19 @@ import { Link, usePathname } from '@/i18n/routing';
 import classNames from 'classnames';
 import Image from 'next/image';
 import LocalePicker from '@/components/global/locale-picker/locale-picker';
+import { Code, House, User } from 'lucide-react';
+import { JSX } from 'react';
 
 type NavLink = {
   key: string;
   path: string;
+  icon: JSX.Element;
 };
 
 const navLinks: NavLink[] = [
-  { key: 'main-title', path: '/' },
-  { key: 'projects', path: '/projects' },
-  { key: 'about', path: '/about' },
+  { key: 'main-title', path: '/', icon: <House className={styles.navIcon} /> },
+  { key: 'projects', path: '/projects', icon: <Code className={styles.navIcon} /> },
+  { key: 'about', path: '/about', icon: <User className={styles.navIcon} /> },
 ];
 
 export default function Header() {
@@ -25,7 +28,7 @@ export default function Header() {
       <div className={styles.headerDiv}>
         <Link href={'/'} className={styles.logoDiv}>
           <Image className={styles.logo} src={'/icons/placeholder.png'} width={512} height={512} alt={'profile'} />
-          Justine
+          <p className={styles.logoText}>Justine</p>
         </Link>
         <NavigationBar />
         <div className={styles.pickersDiv}>
@@ -42,11 +45,15 @@ function NavigationBar() {
   const activePage = usePathname();
   return (
     <nav className={styles.nav}>
-      <ul>
+      <ul className={styles.navUl}>
         {navLinks.map((navLink) => (
-          <li key={navLink.key}>
-            <Link className={classNames(activePage === navLink.path && styles.activeLink)} href={navLink.path}>
-              <span>{t(navLink.key)}</span>
+          <li key={navLink.key} className={styles.navLi}>
+            <Link
+              className={classNames(styles.navLink, activePage === navLink.path && styles.activeLink)}
+              href={navLink.path}
+            >
+              <span className={styles.navText}>{t(navLink.key)}</span>
+              <span className={styles.navIconDiv}>{navLink.icon}</span>
             </Link>
           </li>
         ))}

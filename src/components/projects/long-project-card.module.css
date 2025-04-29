@@ -68,3 +68,66 @@
         }
     }
 }
+
+
+@media (max-width: 600px) {
+    .longProjectCard {
+        max-width: 20rem;
+        max-height: 50rem;
+
+        .projectCardImageContainer {
+            display: flex;
+            justify-content: center;
+
+            width: 100%;
+            height: 100%;
+
+            padding: 1rem;
+
+            .projectImage {
+                height: 9rem;
+                width: auto;
+
+                object-fit: contain;
+            }
+        }
+
+        .projectContentContainer {
+            border-left: none;
+            border-top: 2px solid var(--secondary-vibrant);
+
+            .projectCardHeaderDiv {
+
+                .projectStatus {
+                    height: 100%;
+                    padding: 0.3rem 0.3rem;
+                    border-left: 2px solid var(--secondary-vibrant);
+                    background-color: var(--tertiary);
+                    font-weight: bold;
+                }
+
+                & h3 {
+                    padding: 0.3rem 0.3rem 0.3rem 1rem;
+                }
+            }
+
+            .projectDesc {
+                height: 100%;
+
+                text-align: justify;
+                padding: 0.3rem 1rem 0.3rem 1rem;
+            }
+
+            .projectTechnologies {
+                display: flex;
+                background-color: var(--tertiary);
+                border-top: 2px solid var(--secondary-vibrant);
+
+                & p {
+                    padding: 0.3rem 0.3rem 0.3rem 1rem;
+                }
+            }
+        }
+    }
+
+}
