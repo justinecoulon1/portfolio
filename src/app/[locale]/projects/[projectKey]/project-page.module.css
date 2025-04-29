@@ -136,8 +136,13 @@
 @media (max-width: 600px) {
     .projectPageContainer {
         .projectHeader {
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 0.5rem;
+
             & h2 {
                 font-size: 2rem;
+                border-bottom: none;
             }
 
             .backButton {
