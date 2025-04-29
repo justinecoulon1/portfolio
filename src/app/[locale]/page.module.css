@@ -31,3 +31,12 @@
 .contentSection:nth-child(even) {
     background-color: var(--primary-vibrant);
 }
+
+@media (max-width: 600px) {
+    .homePageContainer {
+        .firstSection {
+            height: calc(100vh + var(--header-height));
+            padding: 0;
+        }
+    }
+}
