@@ -58,6 +58,50 @@
             display: flex;
             flex-direction: column;
 
+            .navUl {
+                gap: 2.5rem;
+
+                .navLi {
+                    list-style-type: none;
+                    transition: transform 0.3s ease;
+
+                    .navLink {
+                        display: inline-block;
+                        position: relative;
+
+                        .navText {
+                            display: inline-block;
+                        }
+
+                        .navIconDiv {
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            padding: 0.3rem;
+
+                            border-radius: 10px;
+
+                            .navIcon {
+                                display: none;
+                            }
+                        }
+                    }
+
+                    .activeLink {
+                        & span {
+                            text-decoration: underline;
+                        }
+                    }
+
+                    & a::before {
+                        content: "→";
+                        position: relative;
+                        left: 0;
+                        opacity: 0;
+                        transition: left 0.3s ease, opacity 0.3s ease;
+                    }
+                }
+            }
         }
     }
 }

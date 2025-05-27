@@ -27,7 +27,7 @@ export const almofus: Project = {
 export const fileShareTool: Project = {
   name: 'FileShareTool',
   projectKey: 'file-share-tool',
-  bannerBackgroundColor: 'gray',
+  bannerBackgroundColor: '#2d2e33',
   githubLink: 'https://github.com/justinecoulon1/FileShareTool',
   sections: ['general'],
   technologies: ['Java', 'Spring boot', 'Hibernate', 'PostgreSQL', 'TypeScript', 'React.js', 'Next.js'],
@@ -64,4 +64,4 @@ export const betterReads: Project = {
   status: ProjectStatus.IN_DEVELOPMENT,
 };
 
-export const projectsList = [betterReads, almofus, portfolio, fileShareTool, choreMate];
+export const projectsList = [betterReads, fileShareTool, almofus, portfolio, choreMate];
