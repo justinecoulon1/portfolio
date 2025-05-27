@@ -107,11 +107,12 @@
     .projectPageContainer {
         .projectHeader {
             & h2 {
-                font-size: 2.5rem;
+                flex-direction: row;
+                font-size: 2rem;
             }
 
             .backButton {
-                width: 5rem;
+                width: 4rem;
             }
         }
     }
@@ -136,12 +137,11 @@
 @media (max-width: 768px) {
     .projectPageContainer {
         .projectHeader {
-            flex-direction: column;
             align-items: flex-start;
             gap: 0.5rem;
 
             & h2 {
-                font-size: 2rem;
+                font-size: 1.8rem;
                 border-bottom: none;
             }
 
@@ -172,11 +172,11 @@
         padding: 1.5rem 0 1.5rem 0;
 
         & h2 {
-            font-size: 1.7rem;
+            font-size: 1.5rem;
         }
 
         & p {
-            font-size: 1.1rem;
+            font-size: 1rem;
         }
 
         .projectSectionContent {
