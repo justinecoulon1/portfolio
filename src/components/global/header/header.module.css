@@ -41,6 +41,10 @@
         }
     }
 
+    .headerMenuDiv {
+        display: none;
+    }
+
     .nav {
         display: flex;
 
@@ -108,8 +112,12 @@
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .logo, .logoText {
+        display: flex;
+    }
+
+    .header .headerMenuDiv {
         display: none;
     }
 
@@ -143,5 +151,16 @@
 
     .header .nav .navUl .navLi .activeLink span {
         background-color: var(--primary-grayed);
+    }
+}
+
+
+@media (max-width: 600px) {
+    .logo, .logoText {
+        display: none;
+    }
+
+    .header .headerMenuDiv {
+        display: flex;
     }
 }

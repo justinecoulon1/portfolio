@@ -1,0 +1,8 @@
+.headerBurgerMenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--tertiary);
+    height: fit-content;
+    padding: 0.4rem;
+}

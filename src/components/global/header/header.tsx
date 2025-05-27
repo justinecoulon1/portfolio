@@ -9,6 +9,7 @@ import Image from 'next/image';
 import LocalePicker from '@/components/global/locale-picker/locale-picker';
 import { Code, House, User } from 'lucide-react';
 import { JSX } from 'react';
+import HeaderBurgerMenuButton from '@/components/global/burger-menu-button/header-burger-menu-button';
 
 type NavLink = {
   key: string;
@@ -26,10 +27,16 @@ export default function Header() {
   return (
     <header className={styles.header}>
       <div className={styles.headerDiv}>
-        <Link href={'/'} className={styles.logoDiv}>
-          <Image className={styles.logo} src={'/icons/placeholder.png'} width={512} height={512} alt={'profile'} />
-          <p className={styles.logoText}>Justine</p>
-        </Link>
+        <div className={styles.headerLeftDiv}>
+          <div className={styles.headerMenuDiv}>
+            <HeaderBurgerMenuButton />
+          </div>
+          <Link href={'/'} className={styles.logoDiv}>
+            <Image className={styles.logo} src={'/icons/placeholder.png'} width={512} height={512} alt={'profile'} />
+            <p className={styles.logoText}>Justine</p>
+          </Link>
+        </div>
+
         <NavigationBar />
         <div className={styles.pickersDiv}>
           <LocalePicker />

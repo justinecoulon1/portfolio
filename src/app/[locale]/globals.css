@@ -81,7 +81,7 @@ a {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .nbShadow {
         box-shadow: 1px 1px 0 0 var(--secondary-vibrant);
         transform: translate(0px);
