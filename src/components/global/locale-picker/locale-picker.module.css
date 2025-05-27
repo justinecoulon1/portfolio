@@ -47,9 +47,3 @@
         }
     }
 }
-
-@media (max-width: 600px) {
-    .localePickerContainer {
-        display: none;
-    }
-}

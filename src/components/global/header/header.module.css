@@ -139,7 +139,6 @@
         transition: none;
     }
 
-
     .header .nav .navUl .navLi:hover {
         transform: none;
     }
@@ -155,12 +154,29 @@
 }
 
 
-@media (max-width: 600px) {
-    .logo, .logoText {
+@media (max-width: 624px) {
+    .header .headerLeftDiv {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .header .nav {
+        display: none;
+    }
+
+    .logoText {
+        display: flex;
+    }
+
+    .logo {
         display: none;
     }
 
     .header .headerMenuDiv {
         display: flex;
+    }
+
+    .headerLocalePickerContainer {
+        display: none;
     }
 }

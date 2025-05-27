@@ -224,9 +224,149 @@
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 624px) {
     .firstSectionContainer .profilePictureSection .profilePictureContainer .profilePicture {
         height: 10rem;
         width: 10rem;
+    }
+}
+
+@media (max-height: 850px) {
+    .firstSectionContainer {
+        gap: 2.5rem;
+
+        .profilePictureSection {
+            .profilePictureContainer {
+                .profilePicture {
+                    height: 10rem;
+                    width: 10rem;
+                }
+            }
+
+            .linksSection {
+                gap: 0.5rem;
+
+                .resumeDiv {
+                    width: 7rem;
+
+                    & a {
+                        .downloadImage {
+                            height: 1.2rem;
+                            width: 1.2rem;
+                        }
+                    }
+
+                    & p {
+                    }
+                }
+            }
+        }
+
+        .presentationSection {
+            gap: 1rem;
+
+            .profileLocationSection {
+                display: flex;
+                align-items: baseline;
+                gap: 0.2rem;
+                font-size: 1rem;
+
+                .mapPin {
+                    height: 1rem;
+                    aspect-ratio: 1/1;
+                }
+            }
+
+            .presentationTitle {
+                font-size: 0.9rem;
+            }
+
+            .presentationDescription {
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+@media (max-height: 750px) {
+    .firstSectionContainer {
+        gap: 1rem;
+
+        .profilePictureSection {
+            gap: 1.5rem;
+
+            .profilePictureContainer {
+                .profilePicture {
+                    height: 8rem;
+                    width: 8rem;
+                }
+            }
+
+            .linksSection {
+                gap: 0.5rem;
+
+                .linkImage {
+                    height: 1.5rem;
+                    width: 1.5rem;
+                }
+
+                .linkDiv {
+                    width: 1.8rem;
+                    height: 1.8rem;
+                }
+
+                .resumeDiv {
+                    width: 7rem;
+
+                    & a {
+                        .downloadImage {
+                            height: 1.2rem;
+                            width: 1.2rem;
+                        }
+                    }
+
+                    & p {
+                        font-size: 0.8rem;
+                    }
+                }
+            }
+        }
+
+        .presentationSection {
+            gap: 1rem;
+
+            .profileLocationSection {
+                display: flex;
+                align-items: baseline;
+                gap: 0.2rem;
+                font-size: 0.9rem;
+
+                .mapPin {
+                    height: 1rem;
+                    aspect-ratio: 1/1;
+                }
+            }
+
+            .presentationTitle {
+                font-size: 0.8rem;
+            }
+
+            .presentationDescription {
+                font-size: 0.9rem;
+            }
+        }
+    }
+}
+
+@media (max-height: 550px) {
+    .firstSectionContainer {
+        .profilePictureSection {
+            .profilePictureContainer {
+                .profilePicture {
+                    height: 5rem;
+                    width: 5rem;
+                }
+            }
+        }
     }
 }

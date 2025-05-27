@@ -69,7 +69,7 @@
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 624px) {
     .longProjectCard {
         max-width: 32rem;
         max-height: 50rem;
